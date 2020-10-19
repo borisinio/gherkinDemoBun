@@ -25,5 +25,5 @@ Feature: f1
 
   Scenario: s5
     Given 0
-    When 1
+    When 13456
     Then 2
