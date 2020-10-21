@@ -3,12 +3,12 @@
 Feature: aba
 @TSCID1007
 	Scenario: s1
-		Given 
-		When 
-		Then 
+		Given aaa
+		When aaaa
+		Then aaaaaa
 
 @TSCID1008
 	Scenario: s2
-		Given 
-		When 
-		Then 
+		Given aaaaaa
+		When aaass
+		Then sssddd`
