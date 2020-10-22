@@ -6,9 +6,3 @@ Feature: mike
 		Given be
 		When like
 		Then mike
-
-@TSCID1155
-	Scenario: some2
-		Given be
-		When like
-		Then mike
