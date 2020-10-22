@@ -2,7 +2,7 @@
 <features version="1">
     <feature name="LaptopBDD"
         path="src\test\resources\features\LaptopBDD.feature"
-        started="1603350746284" tag="">
+        started="1603353124565" tag="">
         <file><![CDATA[Feature: LaptopBDD
 
   Scenario: Laptop scenario b
@@ -22,11 +22,11 @@
         <scenarios>
             <scenario name="Laptop scenario b">
                 <steps>
-                    <step duration="1025200"
+                    <step duration="938300"
                         name="Given there is a LAPTOP" status="passed"/>
-                    <step duration="52700"
+                    <step duration="33500"
                         name="When the user modifies LAPTOP" status="passed"/>
-                    <step duration="1641300"
+                    <step duration="1604900"
                         name="Then the LAPTOP is modified" status="failed">
                         <error_message><![CDATA[java.lang.AssertionError: expected:<6> but was:<60>
 	at org.junit.Assert.fail(Assert.java:88)
@@ -41,21 +41,21 @@
             </scenario>
             <scenario name="Laptop scenario c">
                 <steps>
-                    <step duration="84200"
+                    <step duration="91400"
                         name="Given there is a KEYBOARD" status="passed"/>
-                    <step duration="64300"
+                    <step duration="55000"
                         name="When the user modifies the KEYBOARD" status="passed"/>
-                    <step duration="58000"
+                    <step duration="26200"
                         name="Then the KEYBOARD is modified" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="Laptop scenario d">
                 <steps>
-                    <step duration="61900"
+                    <step duration="42800"
                         name="Given there is a KEYBOARD" status="passed"/>
-                    <step duration="52000"
+                    <step duration="21000"
                         name="When the user modifies the KEYBOARD" status="passed"/>
-                    <step duration="39900"
+                    <step duration="20800"
                         name="Then the KEYBOARD is modified" status="passed"/>
                 </steps>
             </scenario>
@@ -63,7 +63,7 @@
     </feature>
     <feature name=""
         path="src\test\resources\features\YALLA_1003.feature"
-        started="1603350746295" tag="">
+        started="1603353124574" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1003REV0.3.0
 Feature:
@@ -90,7 +90,7 @@ Feature:
     </feature>
     <feature name=""
         path="src\test\resources\features\dididi_1001.feature"
-        started="1603350746314" tag="">
+        started="1603353124591" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1001REV0.2.0
 Feature: 
@@ -119,6 +119,58 @@ Feature:
                     <step duration="0" name="Given ghng" status="undefined"/>
                     <step duration="0" name="When bbtf" status="undefined"/>
                     <step duration="0" name="Then nttffgt" status="undefined"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name=""
+        path="src\test\resources\features\yamSen_1005.feature"
+        started="1603353124596" tag="">
+        <file><![CDATA[#Auto generated Octane revision tag
+@BSPID1005REV0.2.0
+Feature:
+@TSCID1075
+	Scenario: a
+		Given ]]></file>
+        <scenarios>
+            <scenario name="a">
+                <steps>
+                    <step duration="34100" name="" status="failed">
+                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
+	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
+	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
+	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
+	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
+	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
+	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
+	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
+	at cucumber.runner.Runner.runPickle(Runner.java:49)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+	at ✽.(file:src/test/resources/features/yamSen_1005.feature:6)
+]]></error_message>
+                    </step>
                 </steps>
             </scenario>
         </scenarios>
