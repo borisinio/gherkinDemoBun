@@ -2,7 +2,7 @@
 <features version="1">
     <feature name=""
         path="src\test\resources\features\YALLA_1003.feature"
-        started="1603358132647" tag="">
+        started="1603359722065" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1003REV0.3.0
 Feature:
@@ -29,7 +29,7 @@ Feature:
     </feature>
     <feature name="sss"
         path="src\test\resources\features\dididi_1001.feature"
-        started="1603358132655" tag="">
+        started="1603359722071" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1001REV0.2.0
 Feature: sss
@@ -48,17 +48,433 @@ Feature: sss
         <scenarios>
             <scenario name="a12">
                 <steps>
-                    <step duration="1189900" name="Given app is open" status="passed"/>
-                    <step duration="34600" name="When click on settings" status="passed"/>
-                    <step duration="22800" name="Then navigate to space" status="passed"/>
+                    <step duration="780100" name="Given app is open" status="passed"/>
+                    <step duration="33600" name="When click on settings" status="passed"/>
+                    <step duration="26500" name="Then navigate to space" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="a13">
                 <steps>
-                    <step duration="37100" name="Given user in test tab" status="passed"/>
-                    <step duration="24500" name="When click on test id" status="passed"/>
-                    <step duration="26400"
+                    <step duration="34100" name="Given user in test tab" status="passed"/>
+                    <step duration="20800" name="When click on test id" status="passed"/>
+                    <step duration="17800"
                         name="Then tests details should be opened" status="passed"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name=""
+        path="src\test\resources\features\newBDD_1006.feature"
+        started="1603359722074" tag="">
+        <file><![CDATA[#Auto generated Octane revision tag
+@BSPID1006REV0.2.0
+Feature:
+@TSCID1151
+	Scenario: a
+		Given app is open
+		When yet another action
+		Then some action by the actor
+
+@TSCID1152
+	Scenario: b
+		Given yet another action
+		When the buttons should appear in Octane BLABLA
+		Then the buttons should appear in Octane BLABLA
+
+@TSCID1153
+	Scenario: c
+		Given the buttons should appear in Octane
+		When the buttons should appear in Octane BLABLA
+		Then app is open
+
+@TSCID1154
+	Scenario: d
+		Given yet another actiona
+		When the buttons should appear in Octane BLABLA
+		Then buttons
+
+@TSCID1155
+	Scenario: e
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1156
+	Scenario: f
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1157
+	Scenario: g
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1158
+	Scenario: h
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1159
+	Scenario: i
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1160
+	Scenario: j10
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1161
+	Scenario: db
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1162
+	Scenario: k
+		Given buttons
+		When buttons
+		Then buttons
+
+@TSCID1163
+	Scenario: l
+		Given buttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1164
+	Scenario: m
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1165
+	Scenario: n
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1166
+	Scenario: o
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1167
+	Scenario: p
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1168
+	Scenario: q
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1169
+	Scenario: r
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1170
+	Scenario: s
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1171
+	Scenario: t
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1172
+	Scenario: u
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1173
+	Scenario: v
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1174
+	Scenario: w
+		Given uttonsdrf
+		When uttonsdrf
+		Then uttonsdrf
+
+@TSCID1175
+	Scenario: x
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
+
+@TSCID1176
+	Scenario: y
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
+
+@TSCID1177
+	Scenario: z
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
+
+@TSCID1178
+	Scenario: go
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
+
+@TSCID1179
+	Scenario: calcu
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
+
+@TSCID1180
+	Scenario: calc
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
+]]></file>
+        <scenarios>
+            <scenario name="a">
+                <steps>
+                    <step duration="80900" name="Given app is open" status="passed"/>
+                    <step duration="51700"
+                        name="When yet another action" status="passed"/>
+                    <step duration="41400"
+                        name="Then some action by the actor" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="b">
+                <steps>
+                    <step duration="55200"
+                        name="Given yet another action" status="passed"/>
+                    <step duration="41900"
+                        name="When the buttons should appear in Octane BLABLA" status="passed"/>
+                    <step duration="43100"
+                        name="Then the buttons should appear in Octane BLABLA" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="c">
+                <steps>
+                    <step duration="1943500"
+                        name="Given the buttons should appear in Octane" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<5> but was:<50>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.theButtonsShouldAppearInOctane(MyStepdefs.java:22)
+	at ✽.the buttons should appear in Octane(file:src/test/resources/features/newBDD_1006.feature:18)
+]]></error_message>
+                    </step>
+                    <step duration="54600"
+                        name="When the buttons should appear in Octane BLABLA" status="skipped"/>
+                    <step duration="41900" name="Then app is open" status="skipped"/>
+                </steps>
+            </scenario>
+            <scenario name="d">
+                <steps>
+                    <step duration="0" name="Given yet another actiona" status="undefined"/>
+                    <step duration="47700"
+                        name="When the buttons should appear in Octane BLABLA" status="skipped"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="e">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="f">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="g">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="h">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="i">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="j10">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="db">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="k">
+                <steps>
+                    <step duration="0" name="Given buttons" status="undefined"/>
+                    <step duration="0" name="When buttons" status="undefined"/>
+                    <step duration="0" name="Then buttons" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="l">
+                <steps>
+                    <step duration="0" name="Given buttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="m">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="n">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="o">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="p">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="q">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="r">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="t">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="u">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="v">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="w">
+                <steps>
+                    <step duration="0" name="Given uttonsdrf" status="undefined"/>
+                    <step duration="0" name="When uttonsdrf" status="undefined"/>
+                    <step duration="0" name="Then uttonsdrf" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="x">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="y">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="z">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="go">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="calcu">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="calc">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
