@@ -181,7 +181,3 @@ Feature:
 		When Filebrowser
 		Then Filebrowser
 
-	Scenario: calc23
-		Given Filebrowser
-		When Filebrowser
-		Then Filebrowser
