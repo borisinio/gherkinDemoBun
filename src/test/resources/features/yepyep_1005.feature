@@ -8,7 +8,7 @@ Feature: sss
 		Then it
 
 @TSCID1154
-	Scenario: some
+	Scenario: sometwo
 		Given break
 		When the
 		Then wall
