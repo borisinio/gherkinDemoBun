@@ -3,12 +3,12 @@
 Feature: sss
 @TSCID1145001
 	Scenario: dup
-		Given 
-		When 
-		Then 
+		Given first
+		When sec
+		Then third
 
 @TSCID1145002
 	Scenario: dup
-		Given 
-		When 
-		Then 
+		Given one
+		When two
+		Then three
