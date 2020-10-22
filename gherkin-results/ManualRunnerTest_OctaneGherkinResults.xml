@@ -2,7 +2,7 @@
 <features version="1">
     <feature name=""
         path="src\test\resources\features\YALLA_1003.feature"
-        started="1603360392212" tag="">
+        started="1603362247561" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1003REV0.3.0
 Feature:
@@ -29,7 +29,7 @@ Feature:
     </feature>
     <feature name="sss"
         path="src\test\resources\features\dididi_1001.feature"
-        started="1603360392218" tag="">
+        started="1603362247568" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1001REV0.2.0
 Feature: sss
@@ -48,235 +48,238 @@ Feature: sss
         <scenarios>
             <scenario name="a12">
                 <steps>
-                    <step duration="814300" name="Given app is open" status="passed"/>
-                    <step duration="34400" name="When click on settings" status="passed"/>
-                    <step duration="20800" name="Then navigate to space" status="passed"/>
+                    <step duration="862300" name="Given app is open" status="passed"/>
+                    <step duration="52200" name="When click on settings" status="passed"/>
+                    <step duration="23400" name="Then navigate to space" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="a13">
                 <steps>
-                    <step duration="36000" name="Given user in test tab" status="passed"/>
-                    <step duration="20700" name="When click on test id" status="passed"/>
-                    <step duration="19100"
+                    <step duration="63100" name="Given user in test tab" status="passed"/>
+                    <step duration="44900" name="When click on test id" status="passed"/>
+                    <step duration="23800"
                         name="Then tests details should be opened" status="passed"/>
                 </steps>
             </scenario>
         </scenarios>
     </feature>
-    <feature name=""
+    <feature name="mic"
         path="src\test\resources\features\newBDD_1006.feature"
-        started="1603360392220" tag="">
+        started="1603362247571" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1006REV0.2.0
-Feature:
-@TSCID1151
+@BSPID1009REV0.2.0
+Feature:mic
+
+	@TSCID1282
 	Scenario: a
 		Given app is open
 		When yet another action
 		Then some action by the actor
 
-@TSCID1152
+	@TSCID1283
 	Scenario: b
 		Given yet another action
 		When the buttons should appear in Octane BLABLA
 		Then the buttons should appear in Octane BLABLA
 
-@TSCID1153
+	@TSCID1284
 	Scenario: c
 		Given the buttons should appear in Octane
 		When the buttons should appear in Octane BLABLA
 		Then app is open
 
-@TSCID1154
+	@TSCID1285
 	Scenario: d
 		Given yet another actiona
 		When the buttons should appear in Octane BLABLA
 		Then buttons
 
-@TSCID1155
+	@TSCID1286
 	Scenario: e
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1156
+	@TSCID1287
 	Scenario: f
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1157
+	@TSCID1288
 	Scenario: g
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1158
+	@TSCID1289
 	Scenario: h
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1159
+	@TSCID1290
 	Scenario: i
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1160
+	@TSCID1291
 	Scenario: j10
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1161
+	@TSCID1292
 	Scenario: db
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1162
+	@TSCID1293
 	Scenario: k
 		Given buttons
 		When buttons
 		Then buttons
 
-@TSCID1163
+	@TSCID1294
 	Scenario: l
 		Given buttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1164
+	@TSCID1295
 	Scenario: m
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1165
+	@TSCID1296
 	Scenario: n
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1166
+	@TSCID1297
 	Scenario: o
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1167
+	@TSCID1298
 	Scenario: p
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1168
+	@TSCID1299
 	Scenario: q
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1169
+	@TSCID1300
 	Scenario: r
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1170
+	@TSCID1301
 	Scenario: s
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1171
+	@TSCID1302
 	Scenario: t
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1172
+	@TSCID1303
 	Scenario: u
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1173
+	@TSCID1304
 	Scenario: v
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1174
+	@TSCID1305
 	Scenario: w
 		Given uttonsdrf
 		When uttonsdrf
 		Then uttonsdrf
 
-@TSCID1175
+	@TSCID1306
 	Scenario: x
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
 
-@TSCID1176
+	@TSCID1307
 	Scenario: y
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
 
-@TSCID1177
+	@TSCID1308
 	Scenario: z
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
 
-@TSCID1178
+	@TSCID1309
 	Scenario: go
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
 
-@TSCID1179
+	@TSCID1310
 	Scenario: calcu
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
 
-@TSCID1180
+	@TSCID1311
 	Scenario: calc
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
 
-	Scenario: calc23
-		Given Filebrowser
-		When Filebrowser
-		Then Filebrowser
+	@TSCID1312
+	Scenario: sorry
+		Given  dfsdd
+		When flow
+		Then just
+
 ]]></file>
         <scenarios>
             <scenario name="a">
                 <steps>
-                    <step duration="82900" name="Given app is open" status="passed"/>
-                    <step duration="49100"
+                    <step duration="81900" name="Given app is open" status="passed"/>
+                    <step duration="50100"
                         name="When yet another action" status="passed"/>
-                    <step duration="46500"
+                    <step duration="42000"
                         name="Then some action by the actor" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="b">
                 <steps>
-                    <step duration="65400"
+                    <step duration="59800"
                         name="Given yet another action" status="passed"/>
-                    <step duration="45900"
+                    <step duration="51600"
                         name="When the buttons should appear in Octane BLABLA" status="passed"/>
-                    <step duration="39700"
+                    <step duration="66500"
                         name="Then the buttons should appear in Octane BLABLA" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="c">
                 <steps>
-                    <step duration="1884300"
+                    <step duration="2145200"
                         name="Given the buttons should appear in Octane" status="failed">
                         <error_message><![CDATA[java.lang.AssertionError: expected:<5> but was:<50>
 	at org.junit.Assert.fail(Assert.java:88)
@@ -284,18 +287,18 @@ Feature:
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
 	at MyStepdefs.theButtonsShouldAppearInOctane(MyStepdefs.java:22)
-	at ✽.the buttons should appear in Octane(file:src/test/resources/features/newBDD_1006.feature:18)
+	at ✽.the buttons should appear in Octane(file:src/test/resources/features/newBDD_1006.feature:19)
 ]]></error_message>
                     </step>
-                    <step duration="58200"
+                    <step duration="60700"
                         name="When the buttons should appear in Octane BLABLA" status="skipped"/>
-                    <step duration="45400" name="Then app is open" status="skipped"/>
+                    <step duration="46500" name="Then app is open" status="skipped"/>
                 </steps>
             </scenario>
             <scenario name="d">
                 <steps>
                     <step duration="0" name="Given yet another actiona" status="undefined"/>
-                    <step duration="43200"
+                    <step duration="44100"
                         name="When the buttons should appear in Octane BLABLA" status="skipped"/>
                     <step duration="0" name="Then buttons" status="undefined"/>
                 </steps>
@@ -482,11 +485,11 @@ Feature:
                     <step duration="0" name="Then Filebrowser" status="undefined"/>
                 </steps>
             </scenario>
-            <scenario name="calc23">
+            <scenario name="sorry">
                 <steps>
-                    <step duration="0" name="Given Filebrowser" status="undefined"/>
-                    <step duration="0" name="When Filebrowser" status="undefined"/>
-                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                    <step duration="0" name="Given dfsdd" status="undefined"/>
+                    <step duration="0" name="When flow" status="undefined"/>
+                    <step duration="0" name="Then just" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
