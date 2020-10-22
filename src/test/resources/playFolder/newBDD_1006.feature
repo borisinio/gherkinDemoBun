@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1006REV0.3.0
+@BSPID1006REV0.2.0
 Feature:
 @TSCID1151
 	Scenario: a
@@ -180,10 +180,4 @@ Feature:
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
-
-@TSCID1281
-	Scenario: sorry
-		Given  dfsdd
-		When flow
-		Then just
 

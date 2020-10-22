@@ -2,7 +2,7 @@
 <features version="1">
     <feature name=""
         path="src\test\resources\features\YALLA_1003.feature"
-        started="1603359722065" tag="">
+        started="1603360392212" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1003REV0.3.0
 Feature:
@@ -29,7 +29,7 @@ Feature:
     </feature>
     <feature name="sss"
         path="src\test\resources\features\dididi_1001.feature"
-        started="1603359722071" tag="">
+        started="1603360392218" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1001REV0.2.0
 Feature: sss
@@ -48,16 +48,16 @@ Feature: sss
         <scenarios>
             <scenario name="a12">
                 <steps>
-                    <step duration="780100" name="Given app is open" status="passed"/>
-                    <step duration="33600" name="When click on settings" status="passed"/>
-                    <step duration="26500" name="Then navigate to space" status="passed"/>
+                    <step duration="814300" name="Given app is open" status="passed"/>
+                    <step duration="34400" name="When click on settings" status="passed"/>
+                    <step duration="20800" name="Then navigate to space" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="a13">
                 <steps>
-                    <step duration="34100" name="Given user in test tab" status="passed"/>
-                    <step duration="20800" name="When click on test id" status="passed"/>
-                    <step duration="17800"
+                    <step duration="36000" name="Given user in test tab" status="passed"/>
+                    <step duration="20700" name="When click on test id" status="passed"/>
+                    <step duration="19100"
                         name="Then tests details should be opened" status="passed"/>
                 </steps>
             </scenario>
@@ -65,7 +65,7 @@ Feature: sss
     </feature>
     <feature name=""
         path="src\test\resources\features\newBDD_1006.feature"
-        started="1603359722074" tag="">
+        started="1603360392220" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1006REV0.2.0
 Feature:
@@ -248,30 +248,35 @@ Feature:
 		Given Filebrowser
 		When Filebrowser
 		Then Filebrowser
+
+	Scenario: calc23
+		Given Filebrowser
+		When Filebrowser
+		Then Filebrowser
 ]]></file>
         <scenarios>
             <scenario name="a">
                 <steps>
-                    <step duration="80900" name="Given app is open" status="passed"/>
-                    <step duration="51700"
+                    <step duration="82900" name="Given app is open" status="passed"/>
+                    <step duration="49100"
                         name="When yet another action" status="passed"/>
-                    <step duration="41400"
+                    <step duration="46500"
                         name="Then some action by the actor" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="b">
                 <steps>
-                    <step duration="55200"
+                    <step duration="65400"
                         name="Given yet another action" status="passed"/>
-                    <step duration="41900"
+                    <step duration="45900"
                         name="When the buttons should appear in Octane BLABLA" status="passed"/>
-                    <step duration="43100"
+                    <step duration="39700"
                         name="Then the buttons should appear in Octane BLABLA" status="passed"/>
                 </steps>
             </scenario>
             <scenario name="c">
                 <steps>
-                    <step duration="1943500"
+                    <step duration="1884300"
                         name="Given the buttons should appear in Octane" status="failed">
                         <error_message><![CDATA[java.lang.AssertionError: expected:<5> but was:<50>
 	at org.junit.Assert.fail(Assert.java:88)
@@ -282,15 +287,15 @@ Feature:
 	at ✽.the buttons should appear in Octane(file:src/test/resources/features/newBDD_1006.feature:18)
 ]]></error_message>
                     </step>
-                    <step duration="54600"
+                    <step duration="58200"
                         name="When the buttons should appear in Octane BLABLA" status="skipped"/>
-                    <step duration="41900" name="Then app is open" status="skipped"/>
+                    <step duration="45400" name="Then app is open" status="skipped"/>
                 </steps>
             </scenario>
             <scenario name="d">
                 <steps>
                     <step duration="0" name="Given yet another actiona" status="undefined"/>
-                    <step duration="47700"
+                    <step duration="43200"
                         name="When the buttons should appear in Octane BLABLA" status="skipped"/>
                     <step duration="0" name="Then buttons" status="undefined"/>
                 </steps>
@@ -471,6 +476,13 @@ Feature:
                 </steps>
             </scenario>
             <scenario name="calc">
+                <steps>
+                    <step duration="0" name="Given Filebrowser" status="undefined"/>
+                    <step duration="0" name="When Filebrowser" status="undefined"/>
+                    <step duration="0" name="Then Filebrowser" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="calc23">
                 <steps>
                     <step duration="0" name="Given Filebrowser" status="undefined"/>
                     <step duration="0" name="When Filebrowser" status="undefined"/>
