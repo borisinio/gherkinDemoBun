@@ -2,7 +2,7 @@
 <features version="1">
     <feature name="sss"
         path="src\test\resources\features\BBBtest_13002.feature"
-        started="1603355650017" tag="">
+        started="1603355936185" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID13002REV0.2.0
 Feature: sss
@@ -37,7 +37,7 @@ Feature: sss
     </feature>
     <feature name=""
         path="src\test\resources\features\YALLA_1003.feature"
-        started="1603355650120" tag="">
+        started="1603355936194" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1003REV0.3.0
 Feature:
@@ -64,7 +64,7 @@ Feature:
     </feature>
     <feature name=""
         path="src\test\resources\features\dididi_1001.feature"
-        started="1603355650122" tag="">
+        started="1603355936196" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1001REV0.2.0
 Feature: 
@@ -99,7 +99,7 @@ Feature:
     </feature>
     <feature name="dddd"
         path="src\test\resources\features\yamSen_1005.feature"
-        started="1603355650125" tag="">
+        started="1603355936199" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
 @BSPID1005REV0.2.0
 Feature: dddd
