@@ -7,8 +7,8 @@ Feature: mike
 		When like
 		Then mike
 
-@TSCID1155
-	Scenario: some1
+@TSCID1154
+	Scenario: some2
 		Given be
 		When like
 		Then mike
