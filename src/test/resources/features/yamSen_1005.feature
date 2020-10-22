@@ -3,7 +3,7 @@
 Feature: dddd
 @TSCID1075
 	Scenario: a
-		Given yet another action
+		Given
 		When
 		Then
 
