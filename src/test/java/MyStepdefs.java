@@ -371,7 +371,29 @@ public class MyStepdefs {
     }
 
 
+    @io.cucumber.java.en.Given("app is open")
+    public void appIsOpen() {
+    }
 
+    @io.cucumber.java.en.When("click on settings")
+    public void clickOnSettings() {
+    }
+
+    @io.cucumber.java.en.Then("navigate to space")
+    public void navigateToSpace() {
+    }
+
+    @io.cucumber.java.en.Given("user in test tab")
+    public void userInTestTab() {
+    }
+
+    @io.cucumber.java.en.When("click on test id")
+    public void clickOnTestId() {
+    }
+
+    @io.cucumber.java.en.Then("tests details should be opened")
+    public void testsDetailsShouldBeOpened() {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
