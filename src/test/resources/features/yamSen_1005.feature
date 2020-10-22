@@ -162,33 +162,3 @@ Feature: dddd
 		Given
 		When
 		Then
-
-@TSCID1102
-	Scenario: b23
-		Given
-		When
-		Then
-
-@TSCID1103
-	Scenario: c23
-		Given
-		When
-		Then
-
-@TSCID1104
-	Scenario: d23
-		Given
-		When
-		Then
-
-@TSCID1105
-	Scenario: e23
-		Given
-		When
-		Then
-
-@TSCID1106
-	Scenario: f234
-		Given
-		When
-		Then
