@@ -7,7 +7,6 @@ Feature: week
 		When ye
 		Then you
 
-@TSCID1005
 	Scenario: sleep
 		Given cow
 		When view

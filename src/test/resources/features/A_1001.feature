@@ -8,7 +8,7 @@ Feature: secsec
 		Then it
 
 @TSCID1002
-	Scenario: a1
+	Scenario: a12
 		Given make
 		When iut
 		Then rain
