@@ -12,3 +12,9 @@ Feature: tetrt
 		Given ffg
 		When ghg
 		Then ghgfhv
+
+@TSCID1045
+	Scenario: test5
+		Given ffg
+		When ghg
+		Then ghgfhv
