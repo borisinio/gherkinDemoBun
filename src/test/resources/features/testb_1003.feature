@@ -7,7 +7,6 @@ Feature: try
 		When do
 		Then it
 
-@TSCID1007
 	Scenario: S2
 		Given make
 		When it
