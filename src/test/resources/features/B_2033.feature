@@ -12,3 +12,8 @@ Feature: sasa
 		Given ff
 		When gg
 		Then jj
+
+	Scenario: til
+		Given h
+		When ggh
+		Then jjh
