@@ -12,9 +12,3 @@ Feature: ssss
 		Given see
 		When sa
 		Then so
-
-@TSCID1147006
-	Scenario: b3
-		Given see
-		When sa
-		Then so
