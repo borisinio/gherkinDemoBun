@@ -8,7 +8,7 @@ Feature: ssss
 		Then bb
 
 @TSCID2055
-	Scenario: aaa
+	Scenario: aa1
 		Given vv
 		When bb
 		Then nn
