@@ -8,7 +8,7 @@ Feature: aaaa
 		Then sa
 
 @TSCID1147002
-	Scenario: a1
+	Scenario: a2
 		Given da
 		When rs
 		Then fc
