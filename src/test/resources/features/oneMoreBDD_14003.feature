@@ -12,9 +12,3 @@ Feature: sap
 		Given cha
 		When ma
 		Then aa
-
-@TSCID1147009
-	Scenario: n3
-		Given ss
-		When ff
-		Then bb
