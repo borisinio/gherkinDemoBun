@@ -14,7 +14,7 @@ Feature: sss
 		Then trgh
 
 @TSCID2006
-	Scenario: 
+	Scenario: tok
 		Given tho
 		When grg
 		Then trre
