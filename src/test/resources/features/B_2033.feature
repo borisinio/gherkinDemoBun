@@ -2,7 +2,7 @@
 @BSPID2033REV0.2.0
 Feature: sasa
 @TSCID2056
-	Scenario:
+	Scenario: tal
 		Given ss
 		When vv
 		Then the buttons should appear in Octane
@@ -13,6 +13,7 @@ Feature: sasa
 		When gg
 		Then jj
 
+@TSCID2056
 	Scenario: til
 		Given h
 		When ggh
