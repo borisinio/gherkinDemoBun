@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @BSPID2001REV0.2.0
 Feature: sss
-@TSCID2005
+@TSCID2006
 	Scenario: the
 		Given dsfsd
 		When dsfd
@@ -13,7 +13,7 @@ Feature: sss
 		When rtg
 		Then trgh
 
-@TSCID2007
+@TSCID2006
 	Scenario: 
 		Given tho
 		When grg
