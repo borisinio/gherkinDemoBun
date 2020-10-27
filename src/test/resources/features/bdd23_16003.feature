@@ -12,3 +12,8 @@ Feature: sss
 		Given da
 		When fa
 		Then ga
+
+	Scenario: ggg
+		Given da
+		When fa
+		Then ga
