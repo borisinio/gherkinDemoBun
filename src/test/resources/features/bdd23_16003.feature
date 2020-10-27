@@ -19,6 +19,7 @@ Feature: sss
 		When fa
 		Then ga
 
+	@TSCID1149007
 	Scenario: ggg
 		Given da
 		When fa
