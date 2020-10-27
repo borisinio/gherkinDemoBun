@@ -12,3 +12,8 @@ Feature: sss
 		Given ggt
 		When th
 		Then thr
+
+	Scenario: ttt
+		Given hyhy
+		When hyhr
+		Then yjtd
