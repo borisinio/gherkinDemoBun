@@ -6,9 +6,3 @@ Feature: dada
 		Given as
 		When ass
 		Then dfd
-
-@TSCID1150003
-	Scenario: sss
-		Given gfg
-		When ht
-		Then 6y
