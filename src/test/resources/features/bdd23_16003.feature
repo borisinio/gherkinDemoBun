@@ -2,13 +2,13 @@
 @BSPID16003REV0.3.0
 Feature: sss
 	@TSCID1150001
-	Scenario: jjj
+	Scenario:
 		Given kk
 		When kk
 		Then kk
 
 	@TSCID1149005
-	Scenario: ddd
+	Scenario:
 		Given sa
 		When ca
 		Then va
