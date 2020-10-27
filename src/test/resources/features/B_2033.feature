@@ -2,10 +2,10 @@
 @BSPID2033REV0.2.0
 Feature: sasa
 @TSCID2056
-	Scenario: tal
+	Scenario:
 		Given ss
 		When vv
-		Then cc
+		Then the buttons should appear in Octane
 
 @TSCID2057
 	Scenario: tul

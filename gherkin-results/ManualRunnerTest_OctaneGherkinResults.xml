@@ -1,70 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="secsec"
-        path="src\test\resources\features\A_1001.feature"
-        started="1603614336525" tag="">
+    <feature name="sasa"
+        path="src\test\resources\features\B_2033.feature"
+        started="1603726724475" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1001REV0.2.0
-Feature: secsec
-@TSCID1001
-	Scenario: a1
-		Given just
-		When do
-		Then it
+@BSPID2033REV0.2.0
+Feature: sasa
+@TSCID2056
+	Scenario: tal
+		Given ss
+		When vv
+		Then the buttons should appear in Octane
 
-@TSCID1002
-	Scenario: a1
-		Given make
-		When iut
-		Then rain
+@TSCID2057
+	Scenario: tul
+		Given ff
+		When gg
+		Then jj
+
+	Scenario: til
+		Given h
+		When ggh
+		Then jjh
 ]]></file>
         <scenarios>
-            <scenario name="a1" outlineIndex="1">
+            <scenario name="tal">
                 <steps>
-                    <step duration="0" name="Given just" status="undefined"/>
-                    <step duration="0" name="When do" status="undefined"/>
-                    <step duration="0" name="Then it" status="undefined"/>
+                    <step duration="0" name="Given ss" status="undefined"/>
+                    <step duration="0" name="When vv" status="undefined"/>
+                    <step duration="25200"
+                        name="Then the buttons should appear in Octane" status="skipped"/>
                 </steps>
             </scenario>
-            <scenario name="a1" outlineIndex="2">
+            <scenario name="tul">
                 <steps>
-                    <step duration="0" name="Given make" status="undefined"/>
-                    <step duration="0" name="When iut" status="undefined"/>
-                    <step duration="0" name="Then rain" status="undefined"/>
+                    <step duration="0" name="Given ff" status="undefined"/>
+                    <step duration="0" name="When gg" status="undefined"/>
+                    <step duration="0" name="Then jj" status="undefined"/>
                 </steps>
             </scenario>
-        </scenarios>
-    </feature>
-    <feature name="mike"
-        path="src\test\resources\features\oneSec_1006.feature"
-        started="1603614336533" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1006REV0.2.0
-Feature: mike
-@TSCID1155
-	Scenario: some1
-		Given be
-		When like
-		Then mike
-
-@TSCID1155
-	Scenario: some1
-		Given be
-		When like
-		Then mike]]></file>
-        <scenarios>
-            <scenario name="some1" outlineIndex="1">
+            <scenario name="til">
                 <steps>
-                    <step duration="0" name="Given be" status="undefined"/>
-                    <step duration="0" name="When like" status="undefined"/>
-                    <step duration="0" name="Then mike" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="some1" outlineIndex="2">
-                <steps>
-                    <step duration="0" name="Given be" status="undefined"/>
-                    <step duration="0" name="When like" status="undefined"/>
-                    <step duration="0" name="Then mike" status="undefined"/>
+                    <step duration="0" name="Given h" status="undefined"/>
+                    <step duration="0" name="When ggh" status="undefined"/>
+                    <step duration="0" name="Then jjh" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
