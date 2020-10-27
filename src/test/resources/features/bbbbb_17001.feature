@@ -2,7 +2,7 @@
 @BSPID17001REV0.2.0
 Feature: dada
 @TSCID1150002
-	Scenario: ddd
+	Scenario: dddd
 		Given as
 		When ass
 		Then dfd
