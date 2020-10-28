@@ -2,18 +2,18 @@
 @BSPID2034REV0.2.0
 Feature: ffff
 @TSCID2060
-	Scenario:
+	Scenario:sasasa
 		Given ddd
 		When ddd
 		Then dfgf
 
 @TSCID2061
-	Scenario:
+	Scenario:sasa
 		Given dfhgrdt
 		When rtyrge
 		Then th
 
-	Scenario:
+	Scenario:fafa
 		Given dfhgrdt
 		When rtyrge
 		Then th
