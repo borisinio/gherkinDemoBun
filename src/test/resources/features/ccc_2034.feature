@@ -2,18 +2,18 @@
 @BSPID2034REV0.2.0
 Feature: ffff
 @TSCID2060
-	Scenario: pa
+	Scenario:
 		Given ddd
 		When ddd
 		Then dfgf
 
 @TSCID2061
-	Scenario: po
+	Scenario:
 		Given dfhgrdt
 		When rtyrge
 		Then th
 
-	Scenario: port
+	Scenario:
 		Given dfhgrdt
 		When rtyrge
 		Then th
