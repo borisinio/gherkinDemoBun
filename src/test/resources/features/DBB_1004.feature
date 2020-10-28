@@ -6,3 +6,8 @@ Feature: papa
 		Given pa
 		When dasdf
 		Then gf
+
+	Scenario: ss
+		Given dsf
+		When dsfe
+		Then ew
