@@ -2,12 +2,12 @@
 @BSPID1004REV0.2.0
 Feature: papa
 @TSCID1074
-	Scenario: sasa
+	Scenario:
 		Given pa
 		When dasdf
 		Then gf
 
-	Scenario: ss
+	Scenario:
 		Given dsf
 		When dsfe
 		Then ew
