@@ -12,3 +12,8 @@ Feature: ffff
 		Given dfhgrdt
 		When rtyrge
 		Then th
+
+	Scenario: port
+		Given dfhgrdt
+		When rtyrge
+		Then th
