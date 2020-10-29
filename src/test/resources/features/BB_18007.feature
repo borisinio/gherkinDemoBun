@@ -2,13 +2,13 @@
 @BSPID18007REV0.2.0
 Feature: gram
 @TSCID1151015
-	Scenario:
+	Scenario: a1
 		Given fg
 		When dfg
 		Then rgdf
 
 @TSCID115015
-	Scenario:
+	Scenario: a1
 		Given fg
 		When dfg
 		Then rgdf
