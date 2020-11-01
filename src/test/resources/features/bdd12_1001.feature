@@ -13,7 +13,6 @@ Feature: demo1
 		When hgj
 		Then uykj
 
-@TSCID99999
 	Scenario: a3
 		Given yhug
 		When hgjj
