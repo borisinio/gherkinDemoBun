@@ -1,13 +1,13 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+@BSPID1001REV0.0.1
 Feature: fff
-@TSCID1007
+@TSCID1001
 	Scenario: d1
 		Given sa
 		When da
 		Then ca
 
-@TSCID1007
+@TSCID1001
 	Scenario: d2
 		Given fa
 		When ga
