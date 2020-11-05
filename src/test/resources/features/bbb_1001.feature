@@ -7,7 +7,7 @@ Feature: fff
 		When da
 		Then ca
 
-@TSCID1008
+@TSCID1007
 	Scenario: d2
 		Given fa
 		When ga
