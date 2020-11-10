@@ -7,7 +7,7 @@ Feature: fff
 		When year is over	
 		Then  user should receive mail
 
-@TSCID1002
+@TSCID1004
 	Scenario: q2
 		Given u
 		When t
