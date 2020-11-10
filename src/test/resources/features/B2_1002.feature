@@ -1,14 +1,14 @@
 #Auto generated Octane revision tag
-@BSPID2005REV0.2.0
-Feature: g
-@TSCID2193
-	Scenario: c2
+@BSPID1002REV0.2.0
+Feature: going
+@TSCID1003
+	Scenario: lets
 		Given 
 		When 
 		Then 
 
-@TSCID2194
-	Scenario: c1
+@TSCID1004
+	Scenario: go
 		Given 
 		When 
 		Then 
