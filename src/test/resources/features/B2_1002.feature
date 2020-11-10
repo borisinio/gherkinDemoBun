@@ -3,12 +3,12 @@
 Feature: going
 @TSCID1003
 	Scenario: lets
-		Given 
-		When 
-		Then 
+		Given aaa
+		When bbb
+		Then cccc
 
 @TSCID1004
 	Scenario: go
-		Given 
-		When 
-		Then 
+		Given gggg
+		When hhhh
+		Then jjjj
