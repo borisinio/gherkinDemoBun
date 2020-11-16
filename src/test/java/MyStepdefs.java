@@ -395,6 +395,36 @@ public class MyStepdefs {
     @io.cucumber.java.en.Then("tests details should be opened")
     public void testsDetailsShouldBeOpened() {
     }
+
+    @io.cucumber.java.en.Given("swwqsqws")
+    public void swwqsqws() {
+        assertEquals(5,3);
+    }
+
+    @io.cucumber.java.en.When("qwsqws")
+    public void qwsqws() {
+        assertEquals(5,3);
+    }
+
+    @io.cucumber.java.en.Then("qwsqwsqwswqswqs")
+    public void qwsqwsqwswqswqs() {
+        assertEquals(5,3);
+    }
+
+    @io.cucumber.java.en.Given("deec")
+    public void deec() {
+        assertEquals(5,3);
+    }
+
+    @io.cucumber.java.en.When("cdcscdscs")
+    public void cdcscdscs() {
+        assertEquals(5,5);
+    }
+
+    @io.cucumber.java.en.Then("vfvfdffvfdfvfdfv")
+    public void vfvfdffvfdfvfdfv() {
+        assertEquals(5,5);
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
