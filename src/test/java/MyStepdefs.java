@@ -396,34 +396,34 @@ public class MyStepdefs {
     public void testsDetailsShouldBeOpened() {
     }
 
-    @io.cucumber.java.en.Given("swwqsqws")
-    public void swwqsqws() {
+    @io.cucumber.java.en.Given("step one")
+    public void stepOne() {
+        assertEquals(3,3);
+    }
+
+    @io.cucumber.java.en.When("step two")
+    public void stepTwo() {
+        assertEquals(3,3);
+    }
+
+    @io.cucumber.java.en.Then("step three")
+    public void stepThree() {
         assertEquals(5,3);
     }
 
-    @io.cucumber.java.en.When("qwsqws")
-    public void qwsqws() {
-        assertEquals(5,3);
+    @io.cucumber.java.en.Given("step four")
+    public void stepFour() {
+        assertEquals(1,1);
     }
 
-    @io.cucumber.java.en.Then("qwsqwsqwswqswqs")
-    public void qwsqwsqwswqswqs() {
-        assertEquals(5,3);
+    @io.cucumber.java.en.When("step five")
+    public void stepFive() {
+        assertEquals(4,4);
     }
 
-    @io.cucumber.java.en.Given("deec")
-    public void deec() {
-        assertEquals(5,3);
-    }
-
-    @io.cucumber.java.en.When("cdcscdscs")
-    public void cdcscdscs() {
-        assertEquals(5,5);
-    }
-
-    @io.cucumber.java.en.Then("vfvfdffvfdfvfdfv")
-    public void vfvfdffvfdfvfdfv() {
-        assertEquals(5,5);
+    @io.cucumber.java.en.Then("step six")
+    public void stepSix() {
+        assertEquals(1,2);
     }
 }
 
