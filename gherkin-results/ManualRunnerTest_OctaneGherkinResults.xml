@@ -1,313 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="fff"
-        path="src\test\resources\features\B1_1001.feature"
-        started="1605012328346" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1001REV0.2.0
-Feature: fff
-@TSCID1001
-	Scenario: a1
-		Given  user have car	
-		When year is over	
-		Then  user should receive mail
+    <feature name="f11" path="src\test\resources\features\BDD11.feature"
+        started="1605712957475" tag="">
+        <file><![CDATA[
+Feature: f11
 
-@TSCID1002
-	Scenario: q2
-		Given u
-		When t
-		Then f
-]]></file>
-        <scenarios>
-            <scenario name="a1">
-                <steps>
-                    <step duration="0" name="Given user have car" status="undefined"/>
-                    <step duration="0" name="When year is over" status="undefined"/>
-                    <step duration="0"
-                        name="Then user should receive mail" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="q2">
-                <steps>
-                    <step duration="0" name="Given u" status="undefined"/>
-                    <step duration="0" name="When t" status="undefined"/>
-                    <step duration="0" name="Then f" status="undefined"/>
-                </steps>
-            </scenario>
-        </scenarios>
-    </feature>
-    <feature name="going"
-        path="src\test\resources\features\B2_1002.feature"
-        started="1605012328356" tag="">
-        <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1002REV0.2.0
-Feature: going
-@TSCID1003
-	Scenario: lets
-		Given 
-		When 
-		Then 
+  Scenario: s330
+    Given 0
+    When 1
+    Then 2
 
-@TSCID1004
-	Scenario: go
-		Given 
-		When 
-		Then 
-]]></file>
+
+  Scenario: s331
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s332
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s333
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s334
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s335
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s336
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s337
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s338
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s339
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s340
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s341
+    Given 0
+    When 1
+    Then 2
+
+
+  Scenario: s342
+    Given 0
+    When 1
+    Then 2]]></file>
         <scenarios>
-            <scenario name="lets">
+            <scenario name="s330">
                 <steps>
-                    <step duration="44100" name="" status="failed">
-                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
-	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
-	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
-	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
-	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
-	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
-	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
-	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
-	at cucumber.runner.Runner.runPickle(Runner.java:49)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-	at ✽.(file:src/test/resources/features/B2_1002.feature:6)
-]]></error_message>
-                    </step>
-                    <step duration="28700" name="" status="failed">
-                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
-	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
-	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
-	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
-	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
-	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
-	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
-	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
-	at cucumber.runner.Runner.runPickle(Runner.java:49)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-	at ✽.(file:src/test/resources/features/B2_1002.feature:7)
-]]></error_message>
-                    </step>
-                    <step duration="22600" name="" status="failed">
-                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
-	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
-	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
-	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
-	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
-	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
-	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
-	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
-	at cucumber.runner.Runner.runPickle(Runner.java:49)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-	at ✽.(file:src/test/resources/features/B2_1002.feature:8)
-]]></error_message>
-                    </step>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
                 </steps>
             </scenario>
-            <scenario name="go">
+            <scenario name="s331">
                 <steps>
-                    <step duration="38100" name="" status="failed">
-                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
-	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
-	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
-	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
-	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
-	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
-	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
-	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
-	at cucumber.runner.Runner.runPickle(Runner.java:49)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-	at ✽.(file:src/test/resources/features/B2_1002.feature:12)
-]]></error_message>
-                    </step>
-                    <step duration="23100" name="" status="failed">
-                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
-	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
-	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
-	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
-	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
-	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
-	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
-	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
-	at cucumber.runner.Runner.runPickle(Runner.java:49)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-	at ✽.(file:src/test/resources/features/B2_1002.feature:13)
-]]></error_message>
-                    </step>
-                    <step duration="23900" name="" status="failed">
-                        <error_message><![CDATA[java.lang.IllegalArgumentException: Cannot create function name from empty sentence
-	at cucumber.runtime.snippets.FunctionNameGenerator.removeIllegalCharacters(FunctionNameGenerator.java:22)
-	at cucumber.runtime.snippets.FunctionNameGenerator.generateFunctionName(FunctionNameGenerator.java:13)
-	at cucumber.runtime.snippets.SnippetGenerator.functionName(SnippetGenerator.java:64)
-	at cucumber.runtime.snippets.SnippetGenerator.getSnippet(SnippetGenerator.java:47)
-	at cucumber.runtime.java.JavaBackend.getSnippet(JavaBackend.java:164)
-	at cucumber.runner.Runner.addTestStepsForPickleSteps(Runner.java:78)
-	at cucumber.runner.Runner.createTestCaseForPickle(Runner.java:64)
-	at cucumber.runner.Runner.runPickle(Runner.java:49)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-	at ✽.(file:src/test/resources/features/B2_1002.feature:14)
-]]></error_message>
-                    </step>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s332">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s333">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s334">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s335">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s336">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s337">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s338">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s339">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s340">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s341">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
+                </steps>
+            </scenario>
+            <scenario name="s342">
+                <steps>
+                    <step duration="0" name="Given 0" status="undefined"/>
+                    <step duration="0" name="When 1" status="undefined"/>
+                    <step duration="0" name="Then 2" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
     </feature>
     <feature name="TestMada"
         path="src\test\resources\features\MadalinaTest.feature"
-        started="1605012328363" tag="">
+        started="1605712957611" tag="">
         <file><![CDATA[Feature: TestMada
 
   Scenario: Scenario test 1.0
-    Given swwqsqws
-    When qwsqws
-    Then qwsqwsqwswqswqs
+    Given step one
+    When step two
+    Then step three
+    And step four
+    And step five
 
     Scenario: Scenario test 2.0
-      Given deec
-      When cdcscdscs
-      Then vfvfdffvfdfvfdfv]]></file>
+      Given step six
+      When step seven
+      Then step eight]]></file>
         <scenarios>
             <scenario name="Scenario test 1.0">
                 <steps>
-                    <step duration="0" name="Given swwqsqws" status="undefined"/>
-                    <step duration="0" name="When qwsqws" status="undefined"/>
-                    <step duration="0" name="Then qwsqwsqwswqswqs" status="undefined"/>
+                    <step duration="1707600" name="Given step one" status="passed"/>
+                    <step duration="57000" name="When step two" status="passed"/>
+                    <step duration="274000" name="Then step three" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<5> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.stepThree(MyStepdefs.java:411)
+	at ✽.step three(file:src/test/resources/features/MadalinaTest.feature:6)
+]]></error_message>
+                    </step>
+                    <step duration="19600" name="And step four" status="skipped"/>
+                    <step duration="26900" name="And step five" status="skipped"/>
                 </steps>
             </scenario>
             <scenario name="Scenario test 2.0">
                 <steps>
-                    <step duration="0" name="Given deec" status="undefined"/>
-                    <step duration="0" name="When cdcscdscs" status="undefined"/>
-                    <step duration="0" name="Then vfvfdffvfdfvfdfv" status="undefined"/>
+                    <step duration="151700" name="Given step six" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.stepSix(MyStepdefs.java:426)
+	at ✽.step six(file:src/test/resources/features/MadalinaTest.feature:11)
+]]></error_message>
+                    </step>
+                    <step duration="0" name="When step seven" status="undefined"/>
+                    <step duration="0" name="Then step eight" status="undefined"/>
                 </steps>
             </scenario>
         </scenarios>
