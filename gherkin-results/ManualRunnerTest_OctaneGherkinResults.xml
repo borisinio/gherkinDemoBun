@@ -1,229 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="f11" path="src\test\resources\features\BDD11.feature"
-        started="1605712957475" tag="">
-        <file><![CDATA[
-Feature: f11
+    <feature name="yo" path="src\test\resources\features\a_1006.feature"
+        started="1606213552094" tag="@TID1006REV0.2.0">
+        <file><![CDATA[#Auto generated Octane revision tag
+@TID1006REV0.2.0
+Feature: yo
+	Scenario: d1
+		Given one	
+		When two
+		Then three
 
-  Scenario: s330
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s331
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s332
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s333
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s334
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s335
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s336
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s337
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s338
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s339
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s340
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s341
-    Given 0
-    When 1
-    Then 2
-
-
-  Scenario: s342
-    Given 0
-    When 1
-    Then 2]]></file>
+	Scenario: d1
+		Given four	
+		When five
+		Then six
+]]></file>
         <scenarios>
-            <scenario name="s330">
+            <scenario name="d1" outlineIndex="1">
                 <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
+                    <step duration="969800" name="Given one" status="passed"/>
+                    <step duration="32100" name="When two" status="passed"/>
+                    <step duration="29800" name="Then three" status="passed"/>
                 </steps>
             </scenario>
-            <scenario name="s331">
+            <scenario name="d1" outlineIndex="2">
                 <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s332">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s333">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s334">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s335">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s336">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s337">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s338">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s339">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s340">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s341">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
-                </steps>
-            </scenario>
-            <scenario name="s342">
-                <steps>
-                    <step duration="0" name="Given 0" status="undefined"/>
-                    <step duration="0" name="When 1" status="undefined"/>
-                    <step duration="0" name="Then 2" status="undefined"/>
+                    <step duration="1788100" name="Given four" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<4> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at MyStepdefs.four(MyStepdefs.java:413)
+	at ✽.four(file:src/test/resources/features/a_1006.feature:10)
+]]></error_message>
+                    </step>
+                    <step duration="35200" name="When five" status="skipped"/>
+                    <step duration="20200" name="Then six" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>
     </feature>
-    <feature name="TestMada"
-        path="src\test\resources\features\MadalinaTest.feature"
-        started="1605712957611" tag="">
-        <file><![CDATA[Feature: TestMada
+    <feature name="sari"
+        path="src\test\resources\features\sari_1043.feature"
+        started="1606213552104" tag="@TID1043REV0.2.0">
+        <file><![CDATA[#Auto generated Octane revision tag
+@TID1043REV0.2.0
+Feature: sari
+	Scenario: s3
+		Given one
+		When two	
+		Then three
 
-  Scenario: Scenario test 1.0
-    Given step one
-    When step two
-    Then step three
-    And step four
-    And step five
-
-    Scenario: Scenario test 2.0
-      Given step six
-      When step seven
-      Then step eight]]></file>
+	Scenario: s3
+		Given four
+		When five
+		Then six
+]]></file>
         <scenarios>
-            <scenario name="Scenario test 1.0">
+            <scenario name="s3" outlineIndex="1">
                 <steps>
-                    <step duration="1707600" name="Given step one" status="passed"/>
-                    <step duration="57000" name="When step two" status="passed"/>
-                    <step duration="274000" name="Then step three" status="failed">
-                        <error_message><![CDATA[java.lang.AssertionError: expected:<5> but was:<3>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at org.junit.Assert.assertEquals(Assert.java:631)
-	at MyStepdefs.stepThree(MyStepdefs.java:411)
-	at ✽.step three(file:src/test/resources/features/MadalinaTest.feature:6)
-]]></error_message>
-                    </step>
-                    <step duration="19600" name="And step four" status="skipped"/>
-                    <step duration="26900" name="And step five" status="skipped"/>
+                    <step duration="46400" name="Given one" status="passed"/>
+                    <step duration="23900" name="When two" status="passed"/>
+                    <step duration="21400" name="Then three" status="passed"/>
                 </steps>
             </scenario>
-            <scenario name="Scenario test 2.0">
+            <scenario name="s3" outlineIndex="2">
                 <steps>
-                    <step duration="151700" name="Given step six" status="failed">
-                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+                    <step duration="122400" name="Given four" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<4> but was:<3>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at MyStepdefs.stepSix(MyStepdefs.java:426)
-	at ✽.step six(file:src/test/resources/features/MadalinaTest.feature:11)
+	at MyStepdefs.four(MyStepdefs.java:413)
+	at ✽.four(file:src/test/resources/features/sari_1043.feature:10)
 ]]></error_message>
                     </step>
-                    <step duration="0" name="When step seven" status="undefined"/>
-                    <step duration="0" name="Then step eight" status="undefined"/>
+                    <step duration="26400" name="When five" status="skipped"/>
+                    <step duration="20600" name="Then six" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>
