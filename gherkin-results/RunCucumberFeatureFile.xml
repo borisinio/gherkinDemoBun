@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1">
+    <feature name="test Feature"
+        path="src\test\resources\com\hpe\alm\octane\F1\test1.feature"
+        started="1606211089984" tag="">
+        <file><![CDATA[#Auto generated NGA revision tag
+@tag2
+Feature: test Feature
+
+    Scenario: test scenario
+        Given test
+        When test
+        And test
+        Then test
+        But test
+
+    Scenario: test scenario
+        Given test
+        When test
+        Then test
+]]></file>
+        <scenarios>
+            <scenario name="test scenario" outlineIndex="1">
+                <steps>
+                    <step duration="339300" name="Given test" status="passed"/>
+                    <step duration="29400" name="When test" status="passed"/>
+                    <step duration="21600" name="And test" status="passed"/>
+                    <step duration="20900" name="Then test" status="passed"/>
+                    <step duration="20600" name="But test" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="test scenario" outlineIndex="2">
+                <steps>
+                    <step duration="77500" name="Given test" status="passed"/>
+                    <step duration="74300" name="When test" status="passed"/>
+                    <step duration="43400" name="Then test" status="passed"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+</features>
