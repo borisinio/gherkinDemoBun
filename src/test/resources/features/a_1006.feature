@@ -6,7 +6,7 @@ Feature: yo
 		When two
 		Then three
 
-	Scenario: d2
+	Scenario:
 		Given four	
 		When five
 		Then six
