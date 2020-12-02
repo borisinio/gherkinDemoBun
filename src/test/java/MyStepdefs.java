@@ -420,6 +420,10 @@ public class MyStepdefs {
     @io.cucumber.java.en.Then("six")
     public void six() {
     }
+
+    @io.cucumber.java.en.Given("s{int}")
+    public void s(int arg0) {
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
     <feature name="yo" path="src\test\resources\features\a_1006.feature"
-        started="1606213552094" tag="@TID1006REV0.2.0">
+        started="1606911359248" tag="@TID1006REV0.2.0">
         <file><![CDATA[#Auto generated Octane revision tag
 @TID1006REV0.2.0
 Feature: yo
@@ -10,22 +10,22 @@ Feature: yo
 		When two
 		Then three
 
-	Scenario: d1
+	Scenario: d3
 		Given four	
 		When five
 		Then six
 ]]></file>
         <scenarios>
-            <scenario name="d1" outlineIndex="1">
+            <scenario name="d1">
                 <steps>
-                    <step duration="969800" name="Given one" status="passed"/>
-                    <step duration="32100" name="When two" status="passed"/>
-                    <step duration="29800" name="Then three" status="passed"/>
+                    <step duration="931900" name="Given one" status="passed"/>
+                    <step duration="38001" name="When two" status="passed"/>
+                    <step duration="23600" name="Then three" status="passed"/>
                 </steps>
             </scenario>
-            <scenario name="d1" outlineIndex="2">
+            <scenario name="d3">
                 <steps>
-                    <step duration="1788100" name="Given four" status="failed">
+                    <step duration="2176300" name="Given four" status="failed">
                         <error_message><![CDATA[java.lang.AssertionError: expected:<4> but was:<3>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -35,50 +35,97 @@ Feature: yo
 	at ✽.four(file:src/test/resources/features/a_1006.feature:10)
 ]]></error_message>
                     </step>
-                    <step duration="35200" name="When five" status="skipped"/>
-                    <step duration="20200" name="Then six" status="skipped"/>
+                    <step duration="33600" name="When five" status="skipped"/>
+                    <step duration="26801" name="Then six" status="skipped"/>
                 </steps>
             </scenario>
         </scenarios>
     </feature>
-    <feature name="sari"
-        path="src\test\resources\features\sari_1043.feature"
-        started="1606213552104" tag="@TID1043REV0.2.0">
+    <feature name="aaa23"
+        path="src\test\resources\features\bor_1007.feature"
+        started="1606911359260" tag="@TID1007REV0.2.0">
         <file><![CDATA[#Auto generated Octane revision tag
-@TID1043REV0.2.0
-Feature: sari
-	Scenario: s3
-		Given one
-		When two	
+@TID1007REV0.2.0
+Feature: aaa23
+	Scenario: h1
+		Given one	
+		When two
 		Then three
 
-	Scenario: s3
+	Scenario: h2
 		Given four
 		When five
 		Then six
+
+	Scenario: h3
+		Given ctyh
+		When gt
+		Then hh
 ]]></file>
         <scenarios>
-            <scenario name="s3" outlineIndex="1">
+            <scenario name="h1">
                 <steps>
-                    <step duration="46400" name="Given one" status="passed"/>
-                    <step duration="23900" name="When two" status="passed"/>
-                    <step duration="21400" name="Then three" status="passed"/>
+                    <step duration="86200" name="Given one" status="passed"/>
+                    <step duration="32501" name="When two" status="passed"/>
+                    <step duration="28400" name="Then three" status="passed"/>
                 </steps>
             </scenario>
-            <scenario name="s3" outlineIndex="2">
+            <scenario name="h2">
                 <steps>
-                    <step duration="122400" name="Given four" status="failed">
+                    <step duration="199600" name="Given four" status="failed">
                         <error_message><![CDATA[java.lang.AssertionError: expected:<4> but was:<3>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
 	at MyStepdefs.four(MyStepdefs.java:413)
-	at ✽.four(file:src/test/resources/features/sari_1043.feature:10)
+	at ✽.four(file:src/test/resources/features/bor_1007.feature:10)
 ]]></error_message>
                     </step>
-                    <step duration="26400" name="When five" status="skipped"/>
-                    <step duration="20600" name="Then six" status="skipped"/>
+                    <step duration="30101" name="When five" status="skipped"/>
+                    <step duration="72000" name="Then six" status="skipped"/>
+                </steps>
+            </scenario>
+            <scenario name="h3">
+                <steps>
+                    <step duration="0" name="Given ctyh" status="undefined"/>
+                    <step duration="0" name="When gt" status="undefined"/>
+                    <step duration="0" name="Then hh" status="undefined"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="aaa"
+        path="src\test\resources\features\yoyo_9001.feature"
+        started="1606911359282" tag="">
+        <file><![CDATA[#Auto generated Octane revision tag
+@BSPID9001REV0.2.0
+Feature: aaa
+@TSCID1156029
+	Scenario: wait
+		Given s1
+		When s2
+		Then s3
+
+@TSCID1156030
+	Scenario: don't wait
+		Given s4
+		When s5
+		Then s6
+]]></file>
+        <scenarios>
+            <scenario name="wait">
+                <steps>
+                    <step duration="181900" name="Given s1" status="passed"/>
+                    <step duration="33099" name="When s2" status="passed"/>
+                    <step duration="26100" name="Then s3" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="don't wait">
+                <steps>
+                    <step duration="58800" name="Given s4" status="passed"/>
+                    <step duration="29199" name="When s5" status="passed"/>
+                    <step duration="26200" name="Then s6" status="passed"/>
                 </steps>
             </scenario>
         </scenarios>
