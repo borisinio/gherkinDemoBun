@@ -12,9 +12,3 @@ Feature: low
 		Given two
 		When four
 		Then five
-
-@TSCID1156057
-	Scenario: cent
-		Given six
-		When two
-		Then three
