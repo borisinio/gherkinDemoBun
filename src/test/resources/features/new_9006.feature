@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID9006REV0.2.1
+@BSPID9006REV0.5.0
 Feature: wwwe
 @TSCID1156051
 	Scenario: ww
