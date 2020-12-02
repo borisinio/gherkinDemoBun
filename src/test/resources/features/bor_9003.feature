@@ -12,9 +12,3 @@ Feature: ttest
 		Given one
 		When two
 		Then three
-
-@TSCID1155010
-	Scenario: te
-		Given one
-		When two
-		Then three
