@@ -10,8 +10,3 @@ Feature: aaa23
 		Given four
 		When five
 		Then six
-
-	Scenario: h3
-		Given ctyh
-		When gt
-		Then hh
