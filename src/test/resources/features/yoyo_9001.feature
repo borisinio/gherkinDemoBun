@@ -7,14 +7,9 @@ Feature: aaa
 		When s2
 		Then s3
 
-@TSCID1156030
-	Scenario: don't wait
+
+	Scenario:
 		Given s4
 		When s5
 		Then s6
 
-@TSCID1156030
-	Scenario: don't wait to
-		Given s4
-		When s5
-		Then s6
