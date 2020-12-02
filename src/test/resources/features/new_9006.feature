@@ -6,3 +6,8 @@ Feature: wwwe
 		Given one
 		When two
 		Then three
+
+	Scenario: www
+		Given four
+		When five
+		Then six
