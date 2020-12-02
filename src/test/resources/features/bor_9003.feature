@@ -7,7 +7,14 @@ Feature: ttest
 		When two
 		Then three
 
+@TSCID1156038
 	Scenario: fff
+		Given one
+		When two
+		Then three
+
+@TSCID1155010
+	Scenario: te
 		Given one
 		When two
 		Then three
