@@ -6,9 +6,3 @@ Feature: wwwe
 		Given one
 		When two
 		Then three
-
-@TSCID1156052
-	Scenario: www
-		Given four
-		When five
-		Then six
