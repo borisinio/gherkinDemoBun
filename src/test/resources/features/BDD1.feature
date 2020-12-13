@@ -112,3 +112,203 @@ Feature: f1
     When 13456
     Then six
 
+
+  Scenario: s12
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s13
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s14
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+  Scenario: s15
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+  Scenario: s16
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+  Scenario: s17
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s18
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s19
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s20
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s21
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s22
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+
+
+  Scenario: s23
+    Given 0
+    When 13456
+    Then the buttons should APPEAR
+    Given 0
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
+    When 13456
+    Then six
