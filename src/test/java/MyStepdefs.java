@@ -398,27 +398,32 @@ public class MyStepdefs {
 
     @io.cucumber.java.en.Given("one")
     public void one() {
+        assertEquals(3,2);
     }
 
     @io.cucumber.java.en.When("two")
     public void two() {
+        assertEquals(2,2);
     }
 
     @io.cucumber.java.en.Then("three")
     public void three() {
+        assertEquals(3,2);
     }
 
     @io.cucumber.java.en.Given("four")
     public void four() {
-        assertEquals(4,3);
+        assertEquals(2,2);
     }
 
     @io.cucumber.java.en.When("five")
     public void five() {
+        assertEquals(3,2);
     }
 
     @io.cucumber.java.en.Then("six")
     public void six() {
+        assertEquals(2,2);
     }
 
     @io.cucumber.java.en.Given("s{int}")
