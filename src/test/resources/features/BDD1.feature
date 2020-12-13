@@ -1,7 +1,7 @@
 Feature: f1
 
   Scenario: s1.0.1
-    Given 0
+    Given four
     When 1
     Then First then
 
@@ -15,7 +15,7 @@ Feature: f1
   Scenario: s3
     Given 0
     When 1
-    Then First then
+    Then five
 
 
   Scenario: s4
@@ -36,7 +36,7 @@ Feature: f1
 
   Scenario: s7
     Given 0
-    When 13456
+    When I am logged in as Wilson
     Then 2
 
 
