@@ -3,7 +3,7 @@ Feature: f1
   Scenario: s1.0.1
     Given 0
     When 1
-    Then 2
+    Then First then
 
 
   Scenario: s2
@@ -15,7 +15,7 @@ Feature: f1
   Scenario: s3
     Given 0
     When 1
-    Then 2
+    Then First then
 
 
   Scenario: s4
@@ -25,13 +25,13 @@ Feature: f1
 
   Scenario: s5
     Given 0
-    When 13456
+    When Second when
     Then 2
 
   Scenario: s6
     Given 0
     When 13456
-    Then 2
+    Then the buttons should APPEAR
 
 
   Scenario: s7
@@ -54,12 +54,12 @@ Feature: f1
 
   Scenario: s10
     Given 0
-    When 13456
+    When Second when
     Then 2
 
 
   Scenario: s11
     Given 0
     When 13456
-    Then 2
+    Then the buttons should APPEAR
 
