@@ -429,6 +429,15 @@ public class MyStepdefs {
     @io.cucumber.java.en.Given("s{int}")
     public void s(int arg0) {
     }
+
+    @io.cucumber.java.en.Given("{int}")
+    public void some(int arg0) {
+        if (arg0 % 2 == 0) {
+            assertEquals(3, 3);
+        } else {
+            assertEquals(2, 2);
+        }
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
