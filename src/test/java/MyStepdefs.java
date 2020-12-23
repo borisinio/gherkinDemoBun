@@ -434,7 +434,7 @@ public class MyStepdefs {
     public void some(int arg0) {
         if (arg0 % 2 == 0) {
             assertEquals(3, 3);
-        } else if(arg0 % 3 == 0) {
+        } else if(arg0 % 15 == 0 || arg0 % 12 == 0) {
             assertEquals(2, 1);
         }
         else {
