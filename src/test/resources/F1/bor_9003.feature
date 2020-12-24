@@ -4201,6 +4201,7 @@ Feature: TestMada
 		Then 16
 		Then 17
 
+	Scenario: s210
 		Given 0
 		Given 1
 		Given 2
