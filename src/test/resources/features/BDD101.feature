@@ -8,9 +8,9 @@ Feature f10134
     Given 4
     Given 5
     When 6
-    When 7
+    Then 7
     When 8
-    When 9
+    Then 9
     When 10
     When 11
     Then 12
