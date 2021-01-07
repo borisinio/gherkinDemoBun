@@ -8,7 +8,7 @@ Feature: do it
 		Then 3
 
 @TSCID1002
-	Scenario: a1
+	Scenario: a2
 		Given 4
 		When 5
 		Then 6
