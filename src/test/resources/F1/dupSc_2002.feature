@@ -7,7 +7,7 @@ Feature: dupTag
 		When 2
 		Then 3
 
-@TSCID20053
+@TSCID2005
 	Scenario: c2
 		Given 1
 		When 2
