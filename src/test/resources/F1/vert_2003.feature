@@ -8,7 +8,7 @@ Feature: eee
 		Then 3
 
 @TSCID1004
-	Scenario: e2
+	Scenario: e2new
 		Given 4
 		When 5
 		Then 6
