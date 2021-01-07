@@ -8,7 +8,7 @@ Feature: empty
 		Then 3
 
 @TSCID2002
-	Scenario: b2
+	Scenario: b4
 		Given 4
 		When 5
 		Then 6
