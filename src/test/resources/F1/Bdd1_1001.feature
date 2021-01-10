@@ -12,8 +12,3 @@ Feature:
 		| 1     | 1      |
 		| 1     | 1      |
 
-@TSCID1003
-	Scenario: scenario 3
-		Given 1
-		When 2
-		Then 3
