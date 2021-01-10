@@ -15,5 +15,5 @@ Feature:
 @TSCID1003
 	Scenario: scenario 3
 		Given 1
-		When 3
-		Then 2
+		When 2
+		Then 3
