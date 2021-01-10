@@ -29,10 +29,5 @@ Feature: middle
 		| 1     | 1      |
 		| 2     | 2      |
 
-@TSCID1009
-	Scenario: s4
-		Given 1
-		When 2
-		Then 3
 
 
