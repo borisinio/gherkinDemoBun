@@ -1,6 +1,6 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.4.0
-Feature:
+@BSPID1001REV0.5.0
+Feature: feature
 	@TSCID1001
 	Scenario Outline: scenario1
 		Given <param1>
