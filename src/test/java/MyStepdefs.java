@@ -446,9 +446,9 @@ public class MyStepdefs {
 
     @io.cucumber.java.en.Given("{int}")
     public void some(int arg0) {
-        if ((arg0%2) == 1) {
+        if ((arg0 % 2) == 1) {
             assertEquals(3, 3);
-        }else if((arg0%3) == 2) {
+        }else if((arg0 % 3) == 2) {
             assertEquals(2, 2);
         }
         else if(arg0 == 3){
