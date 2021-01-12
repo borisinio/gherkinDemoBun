@@ -448,14 +448,9 @@ public class MyStepdefs {
     public void some(int arg0) {
         if ((arg0 % 2) == 1) {
             assertEquals(3, 3);
-        }if((arg0 % 3) == 2) {
-            assertEquals(2, 2);
         }
-        if(arg0 == 3){
+        else{
             assertEquals(1,2);
-        }
-        if((arg0 % 2) == 0){
-            assertEquals(1,1);
         }
     }
 
@@ -463,14 +458,9 @@ public class MyStepdefs {
     public void some1(int arg0) {
         if ((arg0 % 2) == 1) {
             assertEquals(3, 3);
-        }if((arg0 % 3) == 2) {
-            assertEquals(2, 2);
         }
-        if(arg0 == 3){
+        else{
             assertEquals(1,2);
-        }
-        if((arg0 % 2) == 0){
-            assertEquals(1,1);
         }
     }
 
@@ -478,14 +468,9 @@ public class MyStepdefs {
     public void some2(int arg0) {
         if ((arg0 % 2) == 1) {
             assertEquals(3, 3);
-        }if((arg0 % 3) == 2) {
-            assertEquals(2, 2);
         }
-        if(arg0 == 3){
+       else{
             assertEquals(1,2);
-        }
-        if((arg0 % 2) == 0){
-            assertEquals(1,1);
         }
     }
 }
