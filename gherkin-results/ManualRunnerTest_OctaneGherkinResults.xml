@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features version="1">
-    <feature name="many" path="src\test\resources\F1\B1_1001.feature"
-        started="1610437326028" tag="">
+    <feature name="FE1" path="src\test\resources\F1\new.feature"
+        started="1610438360028" tag="">
         <file><![CDATA[#Auto generated Octane revision tag
-@BSPID1001REV0.2.0
-Feature: many
-	@TSCID1001
-	Scenario Outline: wish
-		Given <param1>
-		When  <param2>
-		Then  <param2>
+@BSPID1003REV0.0.1
+#Auto generated Octane revision tag
+Feature:FE1
 
-		Examples:
-			| param1 | param2 |
-			| 1    | 1      |
-			| 1     | 2      |
+@TSCID1005
+Scenario Outline: S1
+Given <param1>
+When  <param2>
+Then <param3>
+Examples:
+| param1 | param2 | param3 |
+| B      | C      | C     |
+| A     | B     | C     |
 
-	@TSCID1002
-	Scenario: wish1
-		Given 1
-		When 2
-		Then 3
-]]></file>
+@TSCID1006
+Scenario: S2
+Given A
+When B
+Then C1]]></file>
         <scenarios>
-            <scenario name="wish" outlineIndex="1">
+            <scenario name="S1" outlineIndex="1">
                 <steps>
-                    <step duration="2606500" name="Given 1" status="passed"/>
-                    <step duration="69400" name="When 1" status="passed"/>
-                    <step duration="37301" name="Then 1" status="passed"/>
+                    <step duration="1022500" name="Given B" status="passed"/>
+                    <step duration="48399" name="When C" status="passed"/>
+                    <step duration="22400" name="Then C" status="passed"/>
                 </steps>
             </scenario>
-            <scenario name="wish" outlineIndex="2">
+            <scenario name="S1" outlineIndex="2">
                 <steps>
-                    <step duration="98500" name="Given 1" status="passed"/>
-                    <step duration="68499" name="When 2" status="passed"/>
-                    <step duration="56101" name="Then 2" status="passed"/>
+                    <step duration="50400" name="Given A" status="passed"/>
+                    <step duration="27301" name="When B" status="passed"/>
+                    <step duration="22300" name="Then C" status="passed"/>
                 </steps>
             </scenario>
-            <scenario name="wish1">
+            <scenario name="S2">
                 <steps>
-                    <step duration="77600" name="Given 1" status="passed"/>
-                    <step duration="50499" name="When 2" status="passed"/>
-                    <step duration="1248499" name="Then 3" status="failed">
-                        <error_message><![CDATA[java.lang.AssertionError: expected:<1> but was:<2>
+                    <step duration="35799" name="Given A" status="passed"/>
+                    <step duration="29400" name="When B" status="passed"/>
+                    <step duration="1744099" name="Then C1" status="failed">
+                        <error_message><![CDATA[java.lang.AssertionError: expected:<0> but was:<5>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at MyStepdefs.some(MyStepdefs.java:441)
-	at ✽.3(file:src/test/resources/F1/B1_1001.feature:19)
+	at MyStepdefs.c1(MyStepdefs.java:444)
+	at ✽.C1(file:src/test/resources/F1/new.feature:20)
 ]]></error_message>
                     </step>
                 </steps>

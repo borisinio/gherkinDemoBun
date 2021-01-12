@@ -1,9 +1,7 @@
-#Auto generated Octane revision tag
-@BSPID1003REV0.0.1
+
 #Auto generated Octane revision tag
 Feature:FE1
 
-@TSCID1005
 Scenario Outline: S1
 Given <param1>
 When  <param2>
@@ -13,7 +11,6 @@ Examples:
 | B      | C      | C     |
 | A     | B     | C     |
 
-@TSCID1006
 Scenario: S2
 Given A
 When B
