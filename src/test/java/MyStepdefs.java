@@ -18,7 +18,7 @@ public class MyStepdefs {
 
     @Then("the buttons should appear in Octane")
     public void theButtonsShouldAppearInOctane() {
-        Calcs.equal(6,7);
+        Calcs.equal(6, 7);
         String result = "hello";
         assertEquals(result.length(), 50);
 
@@ -398,32 +398,32 @@ public class MyStepdefs {
 
     @io.cucumber.java.en.Given("one")
     public void one() {
-        assertEquals(3,2);
+        assertEquals(3, 2);
     }
 
     @io.cucumber.java.en.When("two")
     public void two() {
-        assertEquals(2,2);
+        assertEquals(2, 2);
     }
 
     @io.cucumber.java.en.Then("three")
     public void three() {
-        assertEquals(3,2);
+        assertEquals(3, 2);
     }
 
     @io.cucumber.java.en.Given("four")
     public void four() {
-        assertEquals(2,2);
+        assertEquals(2, 2);
     }
 
     @io.cucumber.java.en.When("five")
     public void five() {
-        assertEquals(3,2);
+        assertEquals(3, 2);
     }
 
     @io.cucumber.java.en.Then("six")
     public void six() {
-        assertEquals(2,2);
+        assertEquals(2, 2);
     }
 
     @io.cucumber.java.en.Given("s{int}")
@@ -433,47 +433,32 @@ public class MyStepdefs {
     @io.cucumber.java.en.Given("A")
     public void a() {
     }
+
     @io.cucumber.java.en.When("B")
     public void b() {
     }
+
     @io.cucumber.java.en.Then("C")
     public void c() {
     }
+
     @io.cucumber.java.en.Then("C1")
     public void c1() {
-        assertEquals(0,5);
-    }
-
-    @io.cucumber.java.en.Given("{int}")
-    public void some(int arg0) {
-        if ((arg0 % 2) == 1) {
-            assertEquals(3, 3);
-        }
-        else{
-            assertEquals(1,2);
-        }
-    }
-
-    @io.cucumber.java.en.When("{int}")
-    public void some1(int arg0) {
-        if ((arg0 % 2) == 1) {
-            assertEquals(3, 3);
-        }
-        else{
-            assertEquals(1,2);
-        }
+        assertEquals(0, 5);
     }
 
     @io.cucumber.java.en.Then("{int}")
-    public void some2(int arg0) {
-        if ((arg0 % 2) == 1) {
+    public void some(int arg0) {
+        if (arg0  == 17) {
             assertEquals(3, 3);
-        }
-       else{
-            assertEquals(1,2);
+        } else {
+            assertEquals(1, 1);
         }
     }
 }
+
+
+
 
 //    assertEquals(100, Calcs.sum(7, 7));
 //    String result = "hello";
