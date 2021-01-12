@@ -450,7 +450,7 @@ public class MyStepdefs {
     @io.cucumber.java.en.Then("{int}")
     public void some(int arg0) {
         if (arg0  == 17) {
-            assertEquals(3, 3);
+            assertEquals(3, 1);
         } else {
             assertEquals(1, 1);
         }
