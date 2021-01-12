@@ -430,6 +430,20 @@ public class MyStepdefs {
     public void s(int arg0) {
     }
 
+    @io.cucumber.java.en.Given("A")
+    public void a() {
+    }
+    @io.cucumber.java.en.When("B")
+    public void b() {
+    }
+    @io.cucumber.java.en.Then("C")
+    public void c() {
+    }
+    @io.cucumber.java.en.Then("C1")
+    public void c1() {
+        assertEquals(0,5);
+    }
+
     @io.cucumber.java.en.Given("{int}")
     public void some(int arg0) {
         if (arg0 == 1) {
