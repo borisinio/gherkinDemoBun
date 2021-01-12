@@ -458,6 +458,36 @@ public class MyStepdefs {
             assertEquals(1,1);
         }
     }
+
+    @io.cucumber.java.en.When("{int}")
+    public void some1(int arg0) {
+        if ((arg0 % 2) == 1) {
+            assertEquals(3, 3);
+        }if((arg0 % 3) == 2) {
+            assertEquals(2, 2);
+        }
+        if(arg0 == 3){
+            assertEquals(1,2);
+        }
+        if((arg0 % 2) == 0){
+            assertEquals(1,1);
+        }
+    }
+
+    @io.cucumber.java.en.Then("{int}")
+    public void some2(int arg0) {
+        if ((arg0 % 2) == 1) {
+            assertEquals(3, 3);
+        }if((arg0 % 3) == 2) {
+            assertEquals(2, 2);
+        }
+        if(arg0 == 3){
+            assertEquals(1,2);
+        }
+        if((arg0 % 2) == 0){
+            assertEquals(1,1);
+        }
+    }
 }
 
 //    assertEquals(100, Calcs.sum(7, 7));
