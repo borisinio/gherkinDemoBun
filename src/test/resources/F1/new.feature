@@ -7,7 +7,7 @@ Feature: testing
     When  <param1>
     And <param2>
     Then <param1>
-    And <parmam1>
+    And <param1>
 
     Examples:
       | param1 | param2 |
