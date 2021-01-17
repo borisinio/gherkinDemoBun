@@ -1,21 +1,14 @@
-Feature: fgt
+#Auto generated Octane revision tag
+@BSPID1001REV0.2.0
+Feature: testing
+  @TSCID1001
+  Scenario Outline: a1
+    Given <param1>
+    When  <param2>
+    Then <param1>
 
-  Scenario: s30s
-    Given 0
-    Given 1
-    Given 2
-    Given 3
-    Given 4
-    Given 5
-    When 6
-    When 7
-    When 8
-    When 9
-    When 10
-    When 11
-    Then 12
-    Then 13
-    Then 14
-    Then 15
-    Then 16
-    Then 17
+    Examples:
+      | param1 | param2 |
+      | 1     | 1      |
+      | 1      | 2     |
+      | 1      | 1      |
