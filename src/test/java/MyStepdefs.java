@@ -444,13 +444,13 @@ public class MyStepdefs {
 
     @io.cucumber.java.en.Then("C1")
     public void c1() {
-        
+
         assertEquals(0, 5);
     }
 
     @io.cucumber.java.en.Then("{int}")
     public void some(int arg0) {
-        if (arg0  == 12) {
+        if (arg0  == 2) {
             assertEquals(3, 1);
         } else {
             assertEquals(1, 1);
