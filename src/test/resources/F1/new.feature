@@ -4,8 +4,10 @@ Feature: testing
 
   Scenario Outline: a1
     Given <param1>
-    When  <param2>
+    When  <param1>
+    And <param2>
     Then <param1>
+    And <parmam1>
 
     Examples:
       | param1 | param2 |
