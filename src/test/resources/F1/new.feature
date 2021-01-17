@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
-@BSPID1001REV0.2.0
+
 Feature: testing
-  @TSCID1001
+
   Scenario Outline: a1
     Given <param1>
     When  <param2>
