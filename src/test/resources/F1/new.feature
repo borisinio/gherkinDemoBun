@@ -5,8 +5,8 @@ Feature: testing
   Scenario Outline: a1
     Given <param1>
     When  <param1>
-    And <param2>
-    Then <param1>
+    And <param1>
+    Then <param2>
     And <param1>
 
     Examples:
