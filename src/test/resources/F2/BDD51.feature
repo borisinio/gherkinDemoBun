@@ -1,4 +1,4 @@
-Feature: 51
+Feature: f51
 
   Scenario: s0
     Given 0
