@@ -1,4 +1,3 @@
-
 Feature: f153
 
   Scenario: s60
