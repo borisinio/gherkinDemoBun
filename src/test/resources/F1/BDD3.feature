@@ -1,4 +1,3 @@
-
 Feature: f3
 
   Scenario: s60
