@@ -4,6 +4,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = "com.hpe.alm.octane.OctaneGherkinFormatter:gherkin-results/ManualRunnerTest_OctaneGherkinResults.xml",
-        features = "src/test/resources/F300/", tags = "not @exclude")
+        features = "src/test/resources/F400/", tags = "not @exclude")
 public class MyTest {
 }
