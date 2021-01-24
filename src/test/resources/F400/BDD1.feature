@@ -1,4 +1,4 @@
-Feature: TestMada
+Feature: f1
 
   Scenario: s0
     Given 0

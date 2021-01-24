@@ -1,4 +1,4 @@
-Feature: f2.0
+Feature: f1
 
   Scenario: s30
     Given 0

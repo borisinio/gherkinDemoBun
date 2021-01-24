@@ -1,4 +1,3 @@
-
 Feature: f253
 
   Scenario: s60
