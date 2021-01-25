@@ -1,4 +1,3 @@
-
 Feature: f353
 
   Scenario: s60
