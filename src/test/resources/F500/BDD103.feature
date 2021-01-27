@@ -1,4 +1,3 @@
-
 Feature: f103
 
   Scenario: s60
