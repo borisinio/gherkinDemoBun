@@ -432,14 +432,17 @@ public class MyStepdefs {
 
     @io.cucumber.java.en.Given("A")
     public void a() {
+        assertEquals(1,1);
     }
 
     @io.cucumber.java.en.When("B")
     public void b() {
+        assertEquals(1,1);
     }
 
     @io.cucumber.java.en.Then("C")
     public void c() {
+        assertEquals(1,1);
     }
 
     @io.cucumber.java.en.Then("C1")
@@ -457,6 +460,15 @@ public class MyStepdefs {
             assertEquals(1, 1);
         }
     }
+
+
+
+
+
+    @io.cucumber.java.en.Given("<param{int}>")
+    public void param(int arg0) {
+    }
+
 }
 
 
