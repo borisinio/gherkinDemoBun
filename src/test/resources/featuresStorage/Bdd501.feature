@@ -1,10 +1,10 @@
-@BSPID1003REV0.2.0
+@BSPID1003REV0.3.0
 Feature: a
   @TSCID1018
   Scenario: s1
     Given A
     When B
-    Then C
+    Then C1
 
   @TSCID1019
   Scenario Outline: S2
