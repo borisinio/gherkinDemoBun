@@ -1,6 +1,6 @@
 @BSPID1003REV0.3.0
 Feature: a
-  @TSCID1018
+  @TSCID10189
   Scenario: s1
     Given A
     When B
