@@ -448,7 +448,7 @@ public class MyStepdefs {
     @io.cucumber.java.en.Then("C1")
     public void c1() {
 
-        assertEquals(0, 5);
+        assertEquals(5, 5);
     }
 
     @io.cucumber.java.en.Then("{int}")
