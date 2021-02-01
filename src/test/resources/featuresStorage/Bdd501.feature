@@ -1,12 +1,13 @@
-
-Feature:FE1
-
-  Scenario: S11
+@BSPID1003REV0.2.0
+Feature:
+  @TSCID1018
+  Scenario: s1
     Given A
     When B
-    Then C1
+    Then C
 
-  Scenario Outline: S22
+  @TSCID1019
+  Scenario Outline: S2
     Given <param1>
     When  <param2>
     Then <param3>
@@ -15,7 +16,8 @@ Feature:FE1
       | B      | C      | C     |
       | A     | B     | C    |
 
-  Scenario: S33
+  @TSCID1020
+  Scenario: S3
     Given A
     When B
     Then C
