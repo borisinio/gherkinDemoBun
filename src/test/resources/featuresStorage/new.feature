@@ -1,4 +1,4 @@
-Feature:FEEER
+Feature:F
 
   Scenario: S17
     Given A
