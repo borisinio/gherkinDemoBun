@@ -1,5 +1,5 @@
 @BSPID1003REV0.2.0
-Feature:
+Feature: a
   @TSCID1018
   Scenario: s1
     Given A
