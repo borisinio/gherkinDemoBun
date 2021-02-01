@@ -19,7 +19,7 @@ Examples:
 | A     | B     | C    |
 
 @TSCID1211022
-Scenario: S333
+Scenario: S111
 Given A
 When B
 Then C

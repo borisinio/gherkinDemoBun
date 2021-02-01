@@ -20,7 +20,7 @@ Examples:
 | A     | B     | C    |
 
 @TSCID1026
-Scenario: S11
+Scenario: S1
 Given A
 When B
 Then C
