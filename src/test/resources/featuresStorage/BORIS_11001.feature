@@ -1,16 +1,15 @@
-@exclude
 #Auto generated Octane revision tag
-@BSPID1008REV0.2.0
-Feature:FED
+@BSPID11001REV0.2.0
+Feature:FE1V
 
-@TSCID1024
-Scenario: S11
+@TSCID1211020
+Scenario: S111
 Given A
 When B
 Then C1
 
-@TSCID1025
-Scenario Outline: S22
+@TSCID1211021
+Scenario Outline: S222
 Given <param1>
 When  <param2>
 Then <param3>
@@ -19,8 +18,8 @@ Examples:
 | B      | C      | C     |
 | A     | B     | C    |
 
-@TSCID1026
-Scenario: S33
+@TSCID1211022
+Scenario: S333
 Given A
 When B
 Then C
