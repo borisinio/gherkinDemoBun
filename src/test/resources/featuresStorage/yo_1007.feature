@@ -18,3 +18,12 @@ Feature: last
 		And B
 		When A
 		Then 3
+
+	Scenario Outline: yo3
+		Given <param1>
+		When  <param2>
+		Then <param3>
+		Examples:
+			| param1 | param2 | param3 |
+			| B      | C      | C1     |
+			| A     | B     | C    |
