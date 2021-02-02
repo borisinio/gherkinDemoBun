@@ -10,3 +10,11 @@ Feature: last
 		And B
 		When A
 		Then B
+
+	Scenario: yo2
+		Given 1
+		When B
+		Then A
+		And B
+		When A
+		Then 3
