@@ -1,4 +1,5 @@
 Feature: created by automation0
+
 Scenario: Automated scenario0
                     Given 1
                     When 2
