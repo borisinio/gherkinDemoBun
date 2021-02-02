@@ -1,9 +1,12 @@
-@exclude
+
 #Auto generated Octane revision tag
-@BSPID1007REV0.2.0
+
 Feature: last
-@TSCID1023
+
 	Scenario: yo
-		Given A
+		Given C1
 		When B
-		Then C1
+		Then A
+		And B
+		When A
+		Then B
