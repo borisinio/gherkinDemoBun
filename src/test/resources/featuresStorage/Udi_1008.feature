@@ -6,7 +6,7 @@ Feature:FED
 Scenario: S11
 Given A
 When B
-Then C
+Then C1
 
 Scenario Outline: S22
 Given <param1>
