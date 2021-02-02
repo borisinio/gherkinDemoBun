@@ -25,5 +25,5 @@ Feature: last
 		Then <param3>
 		Examples:
 			| param1 | param2 | param3 |
-			| B      | C      | C1     |
-			| A     | B     | C    |
+			| B      | C      | A     |
+			| C1    | B     | C    |
