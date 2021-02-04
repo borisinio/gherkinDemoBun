@@ -1,3 +1,4 @@
+@exclude
 #Auto generated Octane revision tag
 @BSPID10002REV0.3.1
 Feature: RegFeat
