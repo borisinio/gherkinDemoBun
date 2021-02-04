@@ -24,8 +24,3 @@ Feature: RegFeat
 		Given A
 		When B
 		Then C
-
-	Scenario: r3
-		Given A
-		When B
-		Then C
