@@ -3,7 +3,7 @@
 
 Feature: last
 
-	Scenario: yo
+	Scenario:
 		Given A
 		When B
 		Then C1
