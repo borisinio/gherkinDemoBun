@@ -19,6 +19,7 @@ Feature: RegFeat
 		When B
 		Then C
 
+	@TSCID1198043
 	Scenario: r3
 		Given A
 		When B
