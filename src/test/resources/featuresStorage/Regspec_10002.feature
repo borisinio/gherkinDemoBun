@@ -1,4 +1,3 @@
-@exclude
 #Auto generated Octane revision tag
 @BSPID10002REV0.3.0
 Feature: RegFeat
@@ -21,6 +20,11 @@ Feature: RegFeat
 		Then C
 
 	@TSCID1198043
+	Scenario: r3
+		Given A
+		When B
+		Then C
+
 	Scenario: r3
 		Given A
 		When B
