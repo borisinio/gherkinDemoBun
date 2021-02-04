@@ -12,9 +12,3 @@ Feature: GG
 		Given A
 		When B
 		Then C
-
-@TSCID1200004
-	Scenario: g3
-		Given A
-		When B
-		Then C
