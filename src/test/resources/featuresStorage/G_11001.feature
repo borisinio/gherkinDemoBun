@@ -12,3 +12,8 @@ Feature: GG
 		Given A
 		When B
 		Then C
+
+	Scenario: g3
+		Given A
+		When B
+		Then C
