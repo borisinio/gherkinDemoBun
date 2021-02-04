@@ -24,3 +24,9 @@ Feature: RegFeat
 		Given A
 		When B
 		Then C
+
+	@TSCID1198043
+	Scenario: r7
+		Given A
+		When B
+		Then C
