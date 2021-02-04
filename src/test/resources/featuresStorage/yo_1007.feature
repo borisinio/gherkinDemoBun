@@ -6,4 +6,4 @@ Feature: last
 	Scenario: yo
 		Given A
 		When B
-		Then B
+		Then C1
