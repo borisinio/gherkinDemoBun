@@ -1,6 +1,6 @@
-Feature: crea by automation0
+Feature: crea
 
-  Scenario: a
+  Scenario: a1
     Given 1
     When 2
     Then 3
@@ -9,7 +9,7 @@ Feature: crea by automation0
     And 5
     Then 6
 
-  Scenario: b
+  Scenario: b1
     Given 1
     When 2
     Then 3
@@ -18,7 +18,7 @@ Feature: crea by automation0
     And 5
     Then 6
 
-  Scenario: c
+  Scenario: c1
     Given 1
     When 2
     Then 3
@@ -27,7 +27,7 @@ Feature: crea by automation0
     And 5
     Then 6
 
-  Scenario: d
+  Scenario: d1
     Given 1
     When 2
     Then 3
@@ -36,7 +36,7 @@ Feature: crea by automation0
     And 5
     Then 6
 
-  Scenario: a
+  Scenario: e1
     Given 1
     When 2
     Then 3
