@@ -3,30 +3,30 @@
 Feature: test
 @TSCID1574
 	Scenario: a2
-		Given 
-		When 
-		Then 
+		Given 1
+		When 2
+		Then 3
 
 @TSCID1575
 	Scenario: b2
-		Given 
-		When 
-		Then 
+		Given 1
+		When 3
+		Then 3
 
 @TSCID1576
 	Scenario: b3
-		Given 
-		When 
-		Then 
+		Given 3
+		When 3
+		Then 3
 
 @TSCID1577
 	Scenario: b4
-		Given 
-		When 
-		Then 
+		Given 2
+		When 2
+		Then 2
 
 @TSCID1577
 	Scenario: b5
-		Given 
-		When 
-		Then 
+		Given 1
+		When 1
+		Then 1
