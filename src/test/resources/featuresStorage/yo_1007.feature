@@ -2,6 +2,7 @@
 
 Feature: last
 
+	@TSCID1002
 	Scenario: mmm
 		Given A
 		When B
