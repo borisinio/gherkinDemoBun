@@ -23,7 +23,7 @@ Feature: RegFeat
 		When B
 		Then C
 
-	Scenario: r7
+	Scenario: r3
 		Given A
 		When B
 		Then C
