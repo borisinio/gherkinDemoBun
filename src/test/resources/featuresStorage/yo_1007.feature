@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-
+@exclude
 Feature: last
 
 	Scenario: mmm
