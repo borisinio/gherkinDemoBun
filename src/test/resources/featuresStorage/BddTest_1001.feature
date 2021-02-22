@@ -18,7 +18,7 @@ Examples:
 | A     | B     | C    |
 
 
-Scenario:
+Scenario:A1
 Given A
 When B
 Then C
