@@ -2,7 +2,7 @@
 
 Feature: last
 
-	Scenario:
+	Scenario: mmm
 		Given A
 		When B
 		Then C1
