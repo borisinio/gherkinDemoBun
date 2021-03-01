@@ -2,12 +2,17 @@
 
 Feature: dadon
 
-	Scenario:
-		Given we
-		When go
-		Then somewhere
+	Scenario: a23
+		Given 1
+		When 2
+		Then 3
 
 	Scenario: do
-		Given look
-		When at
-		Then me
+		Given 1
+		When 2
+		Then 3
+
+	Scenario: do2
+		Given 1
+		When 2
+		Then 3
