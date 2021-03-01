@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@TID1043REV0.2.0
+
 Feature: sari
 	Scenario: s3
 		Given one
