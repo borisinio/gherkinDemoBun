@@ -2,7 +2,7 @@
 
 Feature: dadon
 
-	Scenario: da
+	Scenario:
 		Given we
 		When go
 		Then somewhere
