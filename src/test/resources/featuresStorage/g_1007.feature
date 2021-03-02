@@ -2,17 +2,17 @@
 
 Feature: dadon
 
-	Scenario: a23
+	Scenario: a1
 		Given 1
 		When 2
 		Then 3
 
-	Scenario: do
+	Scenario: a2
 		Given 1
 		When 2
 		Then 3
 
-	Scenario: do2
+	Scenario: a3
 		Given 1
 		When 2
 		Then 3

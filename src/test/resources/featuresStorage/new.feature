@@ -2,7 +2,7 @@
 
 Feature: testing
 
-  Scenario Outline: a1
+  Scenario Outline: test1
     Given <param1>
     When  <param1>
     And <param1>
