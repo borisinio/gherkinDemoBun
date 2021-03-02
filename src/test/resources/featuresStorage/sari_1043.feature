@@ -6,7 +6,7 @@ Feature: sari
 		When two	
 		Then three
 
-	Scenario: s3
+	Scenario: s4
 		Given four
 		When five
 		Then six
