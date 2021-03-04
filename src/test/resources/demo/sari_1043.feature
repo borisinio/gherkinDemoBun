@@ -2,11 +2,11 @@
 
 Feature: sari
 	Scenario: s3
-		Given one
-		When two	
-		Then three
+		Given 1
+		When 2
+		Then 3
 
-	Scenario:
-		Given four
-		When five
-		Then six
+	Scenario: s2
+		Given 1
+		When 2
+		Then 3
