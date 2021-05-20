@@ -20,7 +20,7 @@ Feature: sari
 
 
 	@TSCID1273246
-	Scenario:
+	Scenario: s1
 		Given 1
 		When 2
 		Then 3
