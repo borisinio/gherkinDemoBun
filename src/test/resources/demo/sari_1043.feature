@@ -1,8 +1,5 @@
-@exclude
-#Auto generated Octane revision tag
 
 #Auto generated Octane revision tag
-
 Feature: sari
 
 	Scenario: s3
