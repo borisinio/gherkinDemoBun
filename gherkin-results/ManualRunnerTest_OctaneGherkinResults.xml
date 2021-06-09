@@ -1,38 +1,182 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<features version="1">
-    <feature name="last"
-        path="src\test\resources\featuresStorage\yo_1007.feature"
-        started="1612269320018" tag="">
-        <file><![CDATA[
-#Auto generated Octane revision tag
+<?xml version="1.0" encoding="UTF-8"?><features version="1">
+    <feature name="bddr" path="src\test\resources\demo\BDDspec_1001.feature" started="1623246737199" tag="">
+        <file>
+            <![CDATA[#Auto generated Octane revision tag
 
-Feature: last
+Feature: bddr
 
-	Scenario: yo
-		Given C1
-		When B
-		Then A
-		And B
-		When A
-		Then B]]></file>
+	Scenario: ram8
+		Given 1
+		When 2
+		And 4
+		And 5
+		Then 3
+]]>
+        </file>
         <scenarios>
-            <scenario name="yo">
+            <scenario name="ram8">
                 <steps>
-                    <step duration="2560700" name="Given C1" status="failed">
-                        <error_message><![CDATA[java.lang.AssertionError: expected:<5> but was:<1>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at org.junit.Assert.assertEquals(Assert.java:631)
-	at MyStepdefs.c1(MyStepdefs.java:451)
-	at ✽.C1(file:src/test/resources/featuresStorage/yo_1007.feature:7)
-]]></error_message>
-                    </step>
-                    <step duration="37100" name="When B" status="skipped"/>
-                    <step duration="24000" name="Then A" status="skipped"/>
-                    <step duration="22800" name="And B" status="skipped"/>
-                    <step duration="24400" name="When A" status="skipped"/>
-                    <step duration="16500" name="Then B" status="skipped"/>
+                    <step duration="2067000" name="Given 1" status="passed"/>
+                    <step duration="61300" name="When 2" status="passed"/>
+                    <step duration="32300" name="And 4" status="passed"/>
+                    <step duration="101700" name="And 5" status="passed"/>
+                    <step duration="41100" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="bobo1" path="src\test\resources\demo\BoBoBo_1003.feature" started="1623246737265" tag="">
+        <file>
+            <![CDATA[#Auto generated Octane revision tag
+
+Feature: bobo1
+
+	Scenario Outline: scenario <param2>
+		Given user <param1> exist
+		When  round <param2>  
+		Then the OK
+
+	Examples:
+		| param1 | param2 |
+		| a      | 1      |
+		| b      | 2      |
+]]>
+        </file>
+        <scenarios>
+            <scenario name="scenario &lt;param2&gt;" outlineIndex="1">
+                <steps>
+                    <step duration="0" name="Given user a exist" status="skipped"/>
+                    <step duration="0" name="When round 1" status="skipped"/>
+                    <step duration="0" name="Then the OK" status="skipped"/>
+                </steps>
+            </scenario>
+            <scenario name="scenario &lt;param2&gt;" outlineIndex="2">
+                <steps>
+                    <step duration="0" name="Given user b exist" status="skipped"/>
+                    <step duration="0" name="When round 2" status="skipped"/>
+                    <step duration="0" name="Then the OK" status="skipped"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="gttt" path="src\test\resources\demo\GTYO_1005.feature" started="1623246737270" tag="">
+        <file>
+            <![CDATA[#Auto generated Octane revision tag
+
+Feature: gttt
+	Scenario: gtr1
+		Given 1
+		When 2
+		And 5
+		And 3
+		Then 3 
+]]>
+        </file>
+        <scenarios>
+            <scenario name="gtr1">
+                <steps>
+                    <step duration="115500" name="Given 1" status="passed"/>
+                    <step duration="37100" name="When 2" status="passed"/>
+                    <step duration="71700" name="And 5" status="passed"/>
+                    <step duration="60200" name="And 3" status="passed"/>
+                    <step duration="36400" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="header" path="src\test\resources\demo\boBdd1_1009.feature" started="1623246737271" tag="">
+        <file>
+            <![CDATA[#Auto generated Octane revision tag
+
+Feature: header
+
+	Scenario: hi
+		Given 1
+		When 2
+		Then 3
+
+
+	Scenario: ha
+		Given 1
+		When 2
+		Then 3
+
+	Scenario: ho
+		Given 1
+		When 2
+		Then 3
+]]>
+        </file>
+        <scenarios>
+            <scenario name="hi">
+                <steps>
+                    <step duration="79200" name="Given 1" status="passed"/>
+                    <step duration="60200" name="When 2" status="passed"/>
+                    <step duration="28900" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="ha">
+                <steps>
+                    <step duration="81200" name="Given 1" status="passed"/>
+                    <step duration="31500" name="When 2" status="passed"/>
+                    <step duration="368900" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="ho">
+                <steps>
+                    <step duration="50100" name="Given 1" status="passed"/>
+                    <step duration="42600" name="When 2" status="passed"/>
+                    <step duration="25600" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+        </scenarios>
+    </feature>
+    <feature name="sari" path="src\test\resources\demo\sari_1043.feature" started="1623246737273" tag="">
+        <file>
+            <![CDATA[
+#Auto generated Octane revision tag
+Feature: sari
+
+	Scenario: s3
+		Given 1
+		When 2
+		Then 3
+
+
+	Scenario: s2
+		Given 1
+		When 2
+		Then 3
+
+
+	Scenario: s1
+		Given 1
+		When 2
+		Then 3
+
+
+]]>
+        </file>
+        <scenarios>
+            <scenario name="s3">
+                <steps>
+                    <step duration="50100" name="Given 1" status="passed"/>
+                    <step duration="27000" name="When 2" status="passed"/>
+                    <step duration="26800" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="s2">
+                <steps>
+                    <step duration="81500" name="Given 1" status="passed"/>
+                    <step duration="32900" name="When 2" status="passed"/>
+                    <step duration="32700" name="Then 3" status="passed"/>
+                </steps>
+            </scenario>
+            <scenario name="s1">
+                <steps>
+                    <step duration="68300" name="Given 1" status="passed"/>
+                    <step duration="68500" name="When 2" status="passed"/>
+                    <step duration="48400" name="Then 3" status="passed"/>
                 </steps>
             </scenario>
         </scenarios>
