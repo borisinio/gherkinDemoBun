@@ -18,3 +18,9 @@ Feature: feat1
 		Given a
 		When b
 		Then c
+
+	@moshe @ido @oded @###
+	Scenario: sec3
+		Given a
+		When b
+		Then c
