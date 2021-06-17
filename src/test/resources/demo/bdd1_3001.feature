@@ -6,14 +6,12 @@
 Feature: feat1
 
 	@!!!%$%%
-	@TSCID1181
 	Scenario: sec2
 		Given a
 		When b
 		Then c
 
 	@first @second @third
-	@TSCID1182
 	Scenario: sec1
 		Given a
 		When b
