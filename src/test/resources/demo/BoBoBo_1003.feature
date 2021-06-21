@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-
+@exclude
 @Lakers @Suns @Bucks
 Feature: bobo1
 
