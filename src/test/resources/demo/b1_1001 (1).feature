@@ -14,7 +14,7 @@ Feature: sha1
 		Then 3
 
 	@A @B @C
-	Scenario: sha3
+	Scenario: sha4
 		Given 1
 		When 2
 		Then 3
