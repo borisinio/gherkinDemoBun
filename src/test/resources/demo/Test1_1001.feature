@@ -1,4 +1,5 @@
 #Auto generated Octane revision tag
+@exclude
 @BSPID1001REV0.6.0
 Feature: Testing
 
