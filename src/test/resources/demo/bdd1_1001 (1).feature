@@ -10,7 +10,7 @@ Feature:f
 		When 2
 		Then 3
 
-@c @d @very some1
+@c @d @very some1 @g @s
 @TSCID1002
 	Scenario: s2
 		Given 1
