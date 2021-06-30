@@ -16,7 +16,7 @@ Feature: sari
 
 	Scenario: s1
 		Given 1
-		When 2
-		Then 3
+		When 1
+		Then 1
 
 

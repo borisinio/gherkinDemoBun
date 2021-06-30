@@ -3,7 +3,7 @@
 Feature: header
 
 	Scenario: hi
-		Given 1
+		Given 2
 		When 2
 		Then 3
 

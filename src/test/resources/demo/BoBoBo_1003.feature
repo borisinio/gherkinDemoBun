@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@exclude
+
 @Lakers @Suns @Bucks
 Feature: bobo1
 
@@ -12,8 +12,8 @@ Feature: bobo1
 	@Yalla
 	Examples:
 		| param1 | param2 |
-		| a      | 1      |
-		| b      | 2      |
+		| 7      | 1      |
+		| 9      | 1      |
 
 
 	@lebron @cp3 @curry
