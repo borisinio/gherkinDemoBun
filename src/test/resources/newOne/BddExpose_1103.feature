@@ -3,21 +3,21 @@
 @anunu @important @sss
 Feature: Reflect Gherkin Tags
 
-@ido @alon @naor
+@ido @alon @naor @chen
 @TSCID4069
 	Scenario: Bdd scenario1
 		Given 4
 		When 2
 		Then 6
 
-@geni @naor @moshe
+@geni @naor @moshe @chen
 @TSCID4070
 	Scenario: Bdd scenario2
 		Given 1
 		When 3
 		Then 5
 
-@niv @omer @amit
+@niv @omer @amit @chen
 @TSCID4071
 	Scenario Outline: 
 		Given <param1> 
