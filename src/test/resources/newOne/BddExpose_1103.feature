@@ -19,7 +19,7 @@ Feature: Reflect Gherkin Tags
 
 @niv @omer @amit @chen
 @TSCID4071
-	Scenario Outline: 
+	Scenario Outline: oysh
 		Given <param1> 
 		When  <param2>  
 		Then 5
