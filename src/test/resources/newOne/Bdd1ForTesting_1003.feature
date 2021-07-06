@@ -1,13 +1,16 @@
 #Auto generated Octane revision tag
-@BSPID1002REV0.2.0
-Feature: some feature
-@TSCID1002
+@BSPID1003REV0.2.0
+Feature: featureForTesting
+
+
+@TSCID1006
 	Scenario: some scenario1
 		Given 1
 		When 7
 		Then 3
 
-@TSCID1003
+
+@TSCID1007
 	Scenario: some scenario2
 		Given 2
 		When 8
