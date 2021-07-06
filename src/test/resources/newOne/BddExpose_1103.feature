@@ -7,7 +7,7 @@ Feature: Reflect Gherkin Tags
 		When 2
 		Then 6
 
-	Scenario:
+	Scenario: sss
 		Given 1
 		When 3
 		Then 5
