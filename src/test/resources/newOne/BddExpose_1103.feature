@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1103REV0.2.0
+
 Feature: Reflect Gherkin Tags
 
 	Scenario: Bdd scenario1
