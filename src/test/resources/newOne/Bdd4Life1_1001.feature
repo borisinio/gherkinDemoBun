@@ -9,6 +9,6 @@ Feature: f1
 
 @TSCID1006
 	Scenario: s2
-		Given 45
+		Given 455555
 		When 11
 		Then 3
