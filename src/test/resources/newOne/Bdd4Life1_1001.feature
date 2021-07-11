@@ -8,7 +8,7 @@ Feature: f1
 		Then 44
 
 @Tag4 @Tag5
-	Scenario: s2
+	Scenario: s1
 		Given 455555
 		When 11
 		Then 3
