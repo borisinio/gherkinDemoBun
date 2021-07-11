@@ -2,13 +2,13 @@
 
 Feature: fman
 
-	Scenario: sol1
+	Scenario: changed1
 		Given 1
 		When 2
 		Then 3
 
 		@Tag1 @Tag2
-	Scenario: sol2
+	Scenario: changed2
 		Given 1
 		When 2
 		Then 3
