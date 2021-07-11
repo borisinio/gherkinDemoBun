@@ -1,9 +1,9 @@
 #Auto generated Octane revision tag
 @BSPID5001REV0.2.0
-@A @B @C @D @E
+@A @B @C @D @E @F @G
 Feature: Bdd1Reg
 
-@1 @2 @3
+@1 @2 @3 @newTag1
 @TSCID9001
 	Scenario: sec1Reg
 		Given 1
