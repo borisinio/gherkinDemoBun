@@ -22,10 +22,11 @@ Scenario: Automated scenario0Feature0
                     And 5
                     And 9
                     And 5
+                    And 5
                     Then 6
 
 @0 @01 @A0
-Scenario: Automated scenario1Feature0
+Scenario: Automated scenario
                     Given 1
                     When 2
                     Then 3
